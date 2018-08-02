@@ -57,25 +57,28 @@
                                내 업무 현황
                           </header>
                           <div class="panel-body">
-							<div class="form-group col-lg-12">
-                                  <label class="control-label col-md-2 col-lg-2">등록일</label>
-                                  <div class="col-md-4 col-lg-4 col-xs-11" >
-                                      <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012" class="input-append date dpYears">
-                                          <input type="text" readonly="" value="12-02-2012" size="16" class="form-control" >
-                                              <span class="input-group-btn add-on" >
-                                                <button class="btn btn-danger" type="button" ><i class="fa fa-calendar"></i></button>
-											</span>
-                                      </div>
-                                  </div>
-								   <div class="col-md-4 col-lg-4 col-xs-11" style="float:right !important;">
-                                      <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012" class="input-append date dpYears">
-                                          <input type="text" readonly="" value="12-02-2012" size="16" class="form-control">
-                                              <span class="input-group-btn add-on">
-                                                <button class="btn btn-danger" type="button" ><i class="fa fa-calendar"></i></button>
-											</span>
-                                      </div>
-                                  </div>
-                              </div>
+									<div class="col-md-12">
+									  <div class="col-md-2 col-lg-2 col-sm-12">
+										<label class="control-label" style="padding-top:10px;">등록일</label>
+									  </div>
+
+									  <div class="col-md-4 col-lg-4 col-sm-12" style="margin:5px;">
+										  <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012" class="input-append date dpYears">
+											  <input type="text" readonly="" value="12-02-2012" size="16" class="form-control" >
+											  <span class="input-group-btn add-on" >
+												<button class="btn btn-danger" type="button" ><i class="fa fa-calendar"></i></button>
+											  </span>
+										  </div>
+									  </div>
+									   <div class="col-md-4 col-lg-4 col-sm-12" style="margin:5px;">
+										  <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012" class="input-append date dpYears">
+											  <input type="text" readonly="" value="12-02-2012" size="16" class="form-control">
+											  <span class="input-group-btn add-on">
+												<button class="btn btn-danger" type="button" ><i class="fa fa-calendar"></i></button>
+											  </span>
+										  </div>
+									  </div>
+								  </div>
                           </div>
                       </section>
                   </div>
