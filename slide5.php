@@ -43,52 +43,57 @@
                              My Page> 내 프로필>프로필 등록
                           </header>
                           <div class="panel-body">
-							 <header class="form-group">
-								 1. 기본정보
-							  </header>
-                              <form class="form-horizontal tasi-form" method="POST">
+						    <h3 class="form-group">
+								프로필 등록
+							</h3>
+							<form class="form-horizontal tasi-form" method="POST">
+							<header class="form-group bottom_border" style="font-size:1.5em;padding:15px;"> 1. 기본정보 </header>
 							  <div class="col-sm-12">
 							   <div class="row">
 							    <div class="col-sm-6">
 								  <div class="form-group bottom_border">
-                                      <label class="col-sm-2 col-sm-2 control-label">Default</label>
-                                      <div class="col-sm-10">
-                                          <input type="text" class="form-control" readonly>
-                                      </div>
+                                      <label class="col-sm-3 control-label">*이름</label>
+                                      <label  class="col-sm-7 control-label">강용오</label>
                                   </div>
 								  <div class="form-group bottom_border">
-                                      <label class="col-sm-2 col-sm-2 control-label">Default</label>
-                                      <div class="col-sm-10">
-                                          <input type="text" class="form-control" readonly>
-                                      </div>
+                                      <label class="col-sm-3 control-label">*이메일</label>
+                                      <label  class="col-sm-7 control-label">andrew.kang@kycg.co.kr</label>
                                   </div>
 
                                   <div class="form-group bottom_border">
-                                      <label class="col-sm-2 col-sm-2 control-label">Default</label>
-                                      <div class="col-sm-10">
+                                      <label class="col-sm-3 control-label">*확인이메일</label>
+                                      <div class="col-sm-7">
+                                          <input type="text" class="form-control">
+                                      </div>
+									  <div class="col-sm-2">
+                                          <span>*개인 이메일</span>
+                                      </div>
+									  
+                                  </div>
+                                   <div class="form-group bottom_border">
+                                      <label class="col-sm-3 control-label">*생년월일</label>
+                                      <div class="col-sm-7">
                                           <input type="text" class="form-control">
                                       </div>
                                   </div>
                                    <div class="form-group bottom_border">
-                                      <label class="col-sm-2 col-sm-2 control-label">Default</label>
-                                      <div class="col-sm-10">
-                                          <input type="text" class="form-control">
-                                      </div>
-                                  </div>
-                                   <div class="form-group bottom_border">
-                                      <label class="col-sm-2 col-sm-2 control-label">Default</label>
-                                      <div class="col-sm-10">
+                                      <label class="col-sm-3 control-label">*연락처</label>
+                                      <div class="col-sm-7">
                                           <input type="text" class="form-control">
                                       </div>
                                   </div>
 
 								  <div class="form-group bottom_border">
-                                      <label class="col-sm-2 col-sm-2 control-label">Default</label>
-                                      <div class="col-sm-10">
+                                      <label class="col-sm-3 col-sm-3 control-label">성별</label>
+                                      <div class="col-sm-7">
                                           <div class="make-switch">
 											  <input type="checkbox" checked>
 										  </div>
                                       </div>
+                                  </div>
+								  <div class="form-group bottom_border">
+                                      <label class="col-sm-3 col-sm-3 control-label">직급</label>
+                                      <label  class="col-sm-7 control-label">상무</label>
                                   </div>
 
 								</div>
@@ -96,7 +101,7 @@
 								<div class="col-sm-6">
 									
 										<div class="form-group last bottom_border">
-                                          <label class="control-label col-md-3">Image Upload</label>
+                                          <label class="control-label col-md-3">사진등록</label>
                                           <div class="col-md-9">
                                               <div class="fileupload fileupload-new" data-provides="fileupload">
                                                   <div class="fileupload-new thumbnail" style="width: 200px; height: 150px;">
@@ -105,7 +110,7 @@
                                                   <div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 200px; max-height: 150px; line-height: 20px;"></div>
                                                   <div>
                                                    <span class="btn btn-white btn-file">
-                                                   <span class="fileupload-new"><i class="fa fa-paper-clip"></i> Select image</span>
+                                                   <span class="fileupload-new"><i class="fa fa-paper-clip"></i>사진등록</span>
                                                    <span class="fileupload-exists"><i class="fa fa-undo"></i> Change</span>
                                                    <input type="file" class="default" />
                                                    </span>
@@ -117,6 +122,79 @@
 									</div>
 								</div>
 								 </div>
+									
+								<h3 class="form-group bottom_border"></h3>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-6">
+											<header class="form-group bottom_border" style="font-size:1.5em;padding:15px;"> 2.  학력사항 </header>
+										</div>
+										<div class="col-md-6">
+											  <div class="col-sm-7  pull-right">
+												  <div class="form-group ">
+													  <div class="col-lg-10 col-sm-9">
+														<div class="row">
+															<div class="col-md-2">
+																 <input  type="checkbox" style="width: 20px" class="checkbox form-control" id="agree" name="agree" checked/>
+															 </div>
+															 <div class="col-md-10">
+																 <label class="control-label">공개</label>
+															 </div>
+														 </div>
+													  </div>
+												  </div>
+											  </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-12">
+								   <div class="row">
+									<div class="col-sm-6">
+										<div class="form-group bottom_border">
+										  <label class="col-sm-3 col-sm-3 control-label">학력</label>
+											<div class="col-sm-4">
+												  <select class="js-example-basic-single">
+														<option value="학력구분" selected>학력구분</option>
+												  </select>
+											</div>
+											<div class="col-sm-4">
+												  <select class="js-example-basic-single">
+														<option value="졸업" selected>졸업</option>
+												  </select>
+											</div>
+										</div>
+										<div class="form-group bottom_border">
+										  <label class="col-sm-3 col-sm-3 control-label">학교명</label>
+											<div class="col-sm-4">
+												  <select class="js-example-basic-single">
+														<option value="국내" selected>국내</option>
+												  </select>
+											</div>
+											<div class="col-sm-4">
+												  <select class="js-example-basic-single">
+														<option value="대학교명" selected>대학교명</option>
+												  </select>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										 <div class="form-group bottom_border">
+											  <label class="col-sm-3 col-sm-3 control-label">전공명</label>
+											  <div class="col-sm-7">
+												  <input type="text" class="form-control">
+											  </div>
+										  </div>
+									
+									</div>
+								</div>
+							 </div>
+							<h3 class="form-group bottom_border"></h3>
+							 <div class="col-md-12 text-center">
+								<div class="form-group">
+									<button type="button" class="btn btn-info">추가</button>
+								</div>
+							 </div>
+
                               </form>
                           </div>
                       </section>
@@ -135,138 +213,33 @@
                                   <table class="table table-bordered table-striped table-condensed cf">
                                       <thead class="cf">
                                       <tr>
-                                          <th>Code</th>
-                                          <th>Company</th>
-                                          <th class="numeric">Price</th>
-                                          <th class="numeric">Change</th>
-                                          <th class="numeric">Change %</th>
-                                          <th class="numeric">Open</th>
-                                          <th class="numeric">High</th>
-                                          <th class="numeric">Low</th>
-                                          <th class="numeric">Volume</th>
+                                          <th>지역</th>
+                                          <th>학교구분</th>
+                                          <th class="numeric">학교명</th>
+                                          <th class="numeric">전공명</th>
+                                          <th class="numeric">졸업여부</th>
+                                          <th class="numeric">최종학력</th>
+                                          <th class="numeric">삭제</th>
                                       </tr>
                                       </thead>
                                       <tbody>
                                       <tr>
-                                          <td data-title="Code">AAC</td>
-                                          <td data-title="Company">AUSTRALIAN AGRICULTURAL COMPANY LIMITED.</td>
-                                          <td class="numeric" data-title="Price">$1.38</td>
-                                          <td class="numeric" data-title="Change">-0.01</td>
-                                          <td class="numeric" data-title="Change %">-0.36%</td>
-                                          <td class="numeric" data-title="Open">$1.39</td>
-                                          <td class="numeric" data-title="High">$1.39</td>
-                                          <td class="numeric" data-title="Low">$1.38</td>
-                                          <td class="numeric" data-title="Volume">9,395</td>
+                                          <td data-title="Code">국내</td>
+                                          <td data-title="Company">대학교</td>
+                                          <td data-title="Price">성균관대학교</td>
+                                          <td data-title="Change"></td>
+                                          <td data-title="Change %"></td>
+                                          <td data-title="Open"><input type="radio" checked></td>
+                                          <td data-title="High"><input type="checkbox" checked></td>
                                       </tr>
                                       <tr>
-                                          <td data-title="Code">AAD</td>
-                                          <td data-title="Company">ARDENT LEISURE GROUP</td>
-                                          <td class="numeric" data-title="Price">$1.15</td>
-                                          <td class="numeric" data-title="Change">  +0.02</td>
-                                          <td class="numeric" data-title="Change %">1.32%</td>
-                                          <td class="numeric" data-title="Open">$1.14</td>
-                                          <td class="numeric" data-title="High">$1.15</td>
-                                          <td class="numeric" data-title="Low">$1.13</td>
-                                          <td class="numeric" data-title="Volume">56,431</td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">AAX</td>
-                                          <td data-title="Company">AUSENCO LIMITED</td>
-                                          <td class="numeric" data-title="Price">$4.00</td>
-                                          <td class="numeric" data-title="Change">-0.04</td>
-                                          <td class="numeric" data-title="Change %">-0.99%</td>
-                                          <td class="numeric" data-title="Open">$4.01</td>
-                                          <td class="numeric" data-title="High">$4.05</td>
-                                          <td class="numeric" data-title="Low">$4.00</td>
-                                          <td class="numeric" data-title="Volume">90,641</td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">ABC</td>
-                                          <td data-title="Company">ADELAIDE BRIGHTON LIMITED</td>
-                                          <td class="numeric" data-title="Price">$3.00</td>
-                                          <td class="numeric" data-title="Change">  +0.06</td>
-                                          <td class="numeric" data-title="Change %">2.04%</td>
-                                          <td class="numeric" data-title="Open">$2.98</td>
-                                          <td class="numeric" data-title="High">$3.00</td>
-                                          <td class="numeric" data-title="Low">$2.96</td>
-                                          <td class="numeric" data-title="Volume">862,518</td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">ABP</td>
-                                          <td data-title="Company">ABACUS PROPERTY GROUP</td>
-                                          <td class="numeric" data-title="Price">$1.91</td>
-                                          <td class="numeric" data-title="Change">0.00</td>
-                                          <td class="numeric" data-title="Change %">0.00%</td>
-                                          <td class="numeric" data-title="Open">$1.92</td>
-                                          <td class="numeric" data-title="High">$1.93</td>
-                                          <td class="numeric" data-title="Low">$1.90</td>
-                                          <td class="numeric" data-title="Volume">595,701</td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">ABY</td>
-                                          <td data-title="Company">ADITYA BIRLA MINERALS LIMITED</td>
-                                          <td class="numeric" data-title="Price">$0.77</td>
-                                          <td class="numeric" data-title="Change">  +0.02</td>
-                                          <td class="numeric" data-title="Change %">2.00%</td>
-                                          <td class="numeric" data-title="Open">$0.76</td>
-                                          <td class="numeric" data-title="High">$0.77</td>
-                                          <td class="numeric" data-title="Low">$0.76</td>
-                                          <td class="numeric" data-title="Volume">54,567</td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">ACR</td>
-                                          <td data-title="Company">ACRUX LIMITED</td>
-                                          <td class="numeric" data-title="Price">$3.71</td>
-                                          <td class="numeric" data-title="Change">  +0.01</td>
-                                          <td class="numeric" data-title="Change %">0.14%</td>
-                                          <td class="numeric" data-title="Open">$3.70</td>
-                                          <td class="numeric" data-title="High">$3.72</td>
-                                          <td class="numeric" data-title="Low">$3.68</td>
-                                          <td class="numeric" data-title="Volume">191,373</td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">ADU</td>
-                                          <td data-title="Company">ADAMUS RESOURCES LIMITED</td>
-                                          <td class="numeric" data-title="Price">$0.72</td>
-                                          <td class="numeric" data-title="Change">0.00</td>
-                                          <td class="numeric" data-title="Change %">0.00%</td>
-                                          <td class="numeric" data-title="Open">$0.73</td>
-                                          <td class="numeric" data-title="High">$0.74</td>
-                                          <td class="numeric" data-title="Low">$0.72</td>
-                                          <td class="numeric" data-title="Volume">8,602,291</td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">AGG</td>
-                                          <td data-title="Company">ANGLOGOLD ASHANTI LIMITED</td>
-                                          <td class="numeric" data-title="Price">$7.81</td>
-                                          <td class="numeric" data-title="Change">-0.22</td>
-                                          <td class="numeric" data-title="Change %">-2.74%</td>
-                                          <td class="numeric" data-title="Open">$7.82</td>
-                                          <td class="numeric" data-title="High">$7.82</td>
-                                          <td class="numeric" data-title="Low">$7.81</td>
-                                          <td class="numeric" data-title="Volume">148</td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">AGK</td>
-                                          <td data-title="Company">AGL ENERGY LIMITED</td>
-                                          <td class="numeric" data-title="Price">$13.82</td>
-                                          <td class="numeric" data-title="Change">  +0.02</td>
-                                          <td class="numeric" data-title="Change %">0.14%</td>
-                                          <td class="numeric" data-title="Open">$13.83</td>
-                                          <td class="numeric" data-title="High">$13.83</td>
-                                          <td class="numeric" data-title="Low">$13.67</td>
-                                          <td class="numeric" data-title="Volume">846,403</td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">AGO</td>
-                                          <td data-title="Company">ATLAS IRON LIMITED</td>
-                                          <td class="numeric" data-title="Price">$3.17</td>
-                                          <td class="numeric" data-title="Change">-0.02</td>
-                                          <td class="numeric" data-title="Change %">-0.47%</td>
-                                          <td class="numeric" data-title="Open">$3.11</td>
-                                          <td class="numeric" data-title="High">$3.22</td>
-                                          <td class="numeric" data-title="Low">$3.10</td>
-                                          <td class="numeric" data-title="Volume">5,416,303</td>
+                                          <td data-title="Code">국내</td>
+                                          <td data-title="Company">고등학교</td>
+                                          <td data-title="Price">문영여자고등학교</td>
+                                          <td data-title="Change"></td>
+                                          <td data-title="Change %"></td>
+                                          <td data-title="Open"><input type="radio"></td>
+                                          <td data-title="High"><input type="checkbox" checked></td>
                                       </tr>
                                       </tbody>
                                   </table>
@@ -285,12 +258,11 @@
      <?php include("footer.php");?>
       <!--footer end-->
   </section>
-
+	<!--custom checkbox & radio-->
+  <script type="text/javascript" src="js/ga.js"></script>
     <!--this page plugins-->
- <script src="js/jquery.js"></script>
-  
+  <script src="js/jquery.js"></script>
     <!--this page plugins-->
-
   <script type="text/javascript" src="js/bootstrap-fileupload.js"></script>
   <!--bootstrap-switch-->
   <script src="js/bootstrap-switch.js"></script>
@@ -312,6 +284,5 @@
           $('#change-color-switch').bootstrapSwitch('setOffClass', 'danger');
       });
   </script>
-
   </body>
 </html>
