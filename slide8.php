@@ -40,214 +40,63 @@
 				<div class="col-md-12">
 					<section class="panel">
                           <header class="panel-heading">
-                             My Page> 내 프로필>프로필 등록
+                             My Page> 내 계정
                           </header>
                           <div class="panel-body">
 						    <h3 class="form-group">
-								프로필 등록
+								내 계정
 							</h3>
 							<form class="form-horizontal tasi-form" method="POST">
-							<header class="form-group bottom_border" style="font-size:1.5em;padding:15px;"> 1. 기본정보 </header>
 							  <div class="col-sm-12">
 							   <div class="row">
 							    <div class="col-sm-6">
 								  <div class="form-group bottom_border">
-                                      <label class="col-sm-3 control-label">*이름</label>
+                                      <label class="col-sm-3 control-label">이름</label>
                                       <label  class="col-sm-7 control-label">강용오</label>
                                   </div>
 								  <div class="form-group bottom_border">
-                                      <label class="col-sm-3 control-label">*이메일</label>
+                                      <label class="col-sm-3 control-label">아이디</label>
                                       <label  class="col-sm-7 control-label">andrew.kang@kycg.co.kr</label>
                                   </div>
 
                                   <div class="form-group bottom_border">
-                                      <label class="col-sm-3 control-label">*확인이메일</label>
-                                      <div class="col-sm-7">
-                                          <input type="text" class="form-control">
-                                      </div>
-									  <div class="col-sm-2">
-                                          <span>*개인 이메일</span>
-                                      </div>
-									  
-                                  </div>
-                                   <div class="form-group bottom_border">
-                                      <label class="col-sm-3 control-label">*생년월일</label>
-                                      <div class="col-sm-7">
-                                          <input type="text" class="form-control">
-                                      </div>
-                                  </div>
-                                   <div class="form-group bottom_border">
-                                      <label class="col-sm-3 control-label">*연락처</label>
-                                      <div class="col-sm-7">
-                                          <input type="text" class="form-control">
+                                      <label class="col-sm-3 control-label">기존비번</label>
+                                      <div class="col-sm-5">
+                                          <input type="password" class="form-control" placeholder="*************">
                                       </div>
                                   </div>
 
 								  <div class="form-group bottom_border">
-                                      <label class="col-sm-3 col-sm-3 control-label">성별</label>
-                                      <div class="col-sm-7">
-                                          <div class="make-switch">
-											  <input type="checkbox" checked>
-										  </div>
+                                      <label class="col-sm-3 control-label">변경비번</label>
+                                      <div class="col-sm-5">
+                                          <input type="password" class="form-control" placeholder="*************">
+                                      </div>
+									  <div class="col-sm-4">
+                                          <span>*숫자, 영문 포함 10자 이상</span>
                                       </div>
                                   </div>
-								  <div class="form-group bottom_border">
-                                      <label class="col-sm-3 col-sm-3 control-label">직급</label>
-                                      <label  class="col-sm-7 control-label">상무</label>
-                                  </div>
 
-								</div>
-
-								<div class="col-sm-6">
-									
-										<div class="form-group last bottom_border">
-                                          <label class="control-label col-md-3">사진등록</label>
-                                          <div class="col-md-9">
-                                              <div class="fileupload fileupload-new" data-provides="fileupload">
-                                                  <div class="fileupload-new thumbnail" style="width: 200px; height: 150px;">
-                                                      <img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&amp;text=no+image" alt="" />
-                                                  </div>
-                                                  <div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 200px; max-height: 150px; line-height: 20px;"></div>
-                                                  <div>
-                                                   <span class="btn btn-white btn-file">
-                                                   <span class="fileupload-new"><i class="fa fa-paper-clip"></i>사진등록</span>
-                                                   <span class="fileupload-exists"><i class="fa fa-undo"></i> Change</span>
-                                                   <input type="file" class="default" />
-                                                   </span>
-                                                      <a href="#" class="btn btn-danger fileupload-exists" data-dismiss="fileupload"><i class="fa fa-trash"></i> Remove</a>
-                                                  </div>
-                                              </div>
-                                          </div>
+                                   <div class="form-group bottom_border">
+                                      <label class="col-sm-3 control-label">비번확인</label>
+                                      <div class="col-sm-5">
+                                          <input type="text" class="form-control" placeholder="*************">
                                       </div>
-									</div>
+                                  </div>
 								</div>
-								 </div>
-									
-								<h3 class="form-group bottom_border"></h3>
-								<div class="col-md-12">
-									<div class="row">
-										<div class="col-md-6">
-											<header class="form-group bottom_border" style="font-size:1.5em;padding:15px;"> 2.  학력사항 </header>
-										</div>
-										<div class="col-md-6">
-											  <div class="col-sm-7  pull-right">
-												  <div class="form-group ">
-													  <div class="col-lg-10 col-sm-9">
-														<div class="row">
-															<div class="col-md-2">
-																 <input  type="checkbox" style="width: 20px" class="checkbox form-control" id="agree" name="agree" checked/>
-															 </div>
-															 <div class="col-md-10">
-																 <label class="control-label">공개</label>
-															 </div>
-														 </div>
-													  </div>
-												  </div>
-											  </div>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-12">
-								   <div class="row">
-									<div class="col-sm-6">
-										<div class="form-group bottom_border">
-										  <label class="col-sm-3 col-sm-3 control-label">학력</label>
-											<div class="col-sm-4">
-												  <select class="js-example-basic-single">
-														<option value="학력구분" selected>학력구분</option>
-												  </select>
-											</div>
-											<div class="col-sm-4">
-												  <select class="js-example-basic-single">
-														<option value="졸업" selected>졸업</option>
-												  </select>
-											</div>
-										</div>
-										<div class="form-group bottom_border">
-										  <label class="col-sm-3 col-sm-3 control-label">학교명</label>
-											<div class="col-sm-4">
-												  <select class="js-example-basic-single">
-														<option value="국내" selected>국내</option>
-												  </select>
-											</div>
-											<div class="col-sm-4">
-												  <select class="js-example-basic-single">
-														<option value="대학교명" selected>대학교명</option>
-												  </select>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-6">
-										 <div class="form-group bottom_border">
-											  <label class="col-sm-3 col-sm-3 control-label">전공명</label>
-											  <div class="col-sm-7">
-												  <input type="text" class="form-control">
-											  </div>
-										  </div>
-									
-									</div>
-								</div>
-							 </div>
+							  </div>
+							</div>
 							<h3 class="form-group bottom_border"></h3>
 							 <div class="col-md-12 text-center">
 								<div class="form-group">
-									<button type="button" class="btn btn-info">추가</button>
+									<button type="button" class="btn btn-info">수정</button>
+									<button type="button" class="btn btn-default">취소</button>
 								</div>
 							 </div>
-
                               </form>
                           </div>
                       </section>
 				</div>
 			 </div>
-
-			  <!-- page start-->
-              <div class="row">
-                  <div class="col-lg-12">
-                      <section class="panel">
-                          <header class="panel-heading">
-                              No More Tables
-                          </header>
-                          <div class="panel-body">
-                              <section id="no-more-tables">
-                                  <table class="table table-bordered table-striped table-condensed cf">
-                                      <thead class="cf">
-                                      <tr>
-                                          <th>지역</th>
-                                          <th>학교구분</th>
-                                          <th class="numeric">학교명</th>
-                                          <th class="numeric">전공명</th>
-                                          <th class="numeric">졸업여부</th>
-                                          <th class="numeric">최종학력</th>
-                                          <th class="numeric">삭제</th>
-                                      </tr>
-                                      </thead>
-                                      <tbody>
-                                      <tr>
-                                          <td data-title="Code">국내</td>
-                                          <td data-title="Company">대학교</td>
-                                          <td data-title="Price">성균관대학교</td>
-                                          <td data-title="Change"></td>
-                                          <td data-title="Change %"></td>
-                                          <td data-title="Open"><input type="radio" checked></td>
-                                          <td data-title="High"><input type="checkbox" checked></td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">국내</td>
-                                          <td data-title="Company">고등학교</td>
-                                          <td data-title="Price">문영여자고등학교</td>
-                                          <td data-title="Change"></td>
-                                          <td data-title="Change %"></td>
-                                          <td data-title="Open"><input type="radio"></td>
-                                          <td data-title="High"><input type="checkbox" checked></td>
-                                      </tr>
-                                      </tbody>
-                                  </table>
-                              </section>
-                          </div>
-                      </section>
-                  </div>
-              </div>
               <!-- page end-->
 
           <!-- page end-->
