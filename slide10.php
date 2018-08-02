@@ -106,7 +106,7 @@
                           </header>
                           <div class="panel-body">
                               <section id="no-more-tables">
-                                  <table class="table table-bordered table-striped table-condensed cf">
+                                  <table  class="display table table-bordered table-striped" id="dynamic-table">
                                       <thead class="cf">
                                       <tr>
                                           <th>로그종류</th>
