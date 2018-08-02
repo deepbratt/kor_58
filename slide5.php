@@ -40,9 +40,12 @@
 				<div class="col-md-12">
 					<section class="panel">
                           <header class="panel-heading">
-                             My Page >
+                             My Page> 내 프로필>프로필 등록
                           </header>
                           <div class="panel-body">
+							 <header class="form-group">
+								 1. 기본정보
+							  </header>
                               <form class="form-horizontal tasi-form" method="POST">
 							  <div class="col-sm-12">
 							   <div class="row">
