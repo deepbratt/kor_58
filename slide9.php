@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keyword" content="">
+
+    <title>Slide 9</title>
+	<?php include("metalinks.php");?>
+    <link href="css/table-responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-fileupload.css" />
+    <!--bootstrap switcher-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />
+    <!-- switchery-->
+    <link rel="stylesheet" type="text/css" href="css/switchery.css" />
+    <!--select 2-->
+    <!--  summernote -->
+	<link href="css/yamm.css" rel="stylesheet">
+	<style>
+		.bottom_border{
+			border-bottom: none !important;
+		}
+	</style>
+  </head>
+
+  <body class="mega-nav">
+
+  <section id="container" class="">
+      <!--header start-->
+      <?php include("header.php");?>
+      <!--header end-->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+          <!-- page start-->
+			 <div class="row">
+				<div class="col-md-12">
+					<section class="panel">
+                          <header class="panel-heading">
+                            My Page> 내 업무 현황
+                          </header>
+                      </section>
+				</div>
+			 </div>
+
+			  <!-- page start-->
+              <div class="row">
+                  <div class="col-lg-6">
+                      <section class="panel">
+                          <header class="panel-heading">
+                               내 업무 현황
+                          </header>
+                          <div class="panel-body">
+							<div class="form-group col-lg-12">
+                                  <label class="control-label col-md-2 col-lg-2">등록일</label>
+                                  <div class="col-md-4 col-lg-4 col-xs-11" >
+                                      <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012" class="input-append date dpYears">
+                                          <input type="text" readonly="" value="12-02-2012" size="16" class="form-control" >
+                                              <span class="input-group-btn add-on" >
+                                                <button class="btn btn-danger" type="button" style="padding:6.5px !important;"><i class="fa fa-calendar"></i></button>
+											</span>
+                                      </div>
+                                  </div>
+								   <div class="col-md-4 col-lg-4 col-xs-11" style="float:right !important;">
+                                      <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012" class="input-append date dpYears">
+                                          <input type="text" readonly="" value="12-02-2012" size="16" class="form-control">
+                                              <span class="input-group-btn add-on">
+                                                <button class="btn btn-danger" type="button" style="padding:6.5px !important;"><i class="fa fa-calendar"></i></button>
+											</span>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </section>
+                  </div>
+
+				  <div class="col-lg-6">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              인재 검색 건수
+                          </header>
+                          <div class="panel-body">
+                              <section id="no-more-tables">
+                                  <table class="table table-bordered table-striped table-condensed cf">
+                                      <thead class="cf">
+                                      <tr>
+                                          <th>한달 기본 건수</th>
+                                          <th>전년도 보너스 건수</th>
+                                          <th class="numeric">추가 건수</th>
+                                          <th class="numeric">총 가능 건수</th>
+                                       
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <tr>
+                                          <td data-title="Code">30</td>
+                                          <td data-title="Company">0</td>
+                                          <td data-title="Price">5</td>
+                                          <td data-title="Change">35</td>
+                                      </tr>
+                                
+                                      </tbody>
+                                  </table>
+                              </section>
+                          </div>
+                      </section>
+                  </div>
+              </div>
+
+			  		  <div class="col-lg-6">
+                      <section class="panel">
+                          <header class="panel-heading">
+                             추천일정(진행중)
+                          </header>
+                          <div class="panel-body">
+                              <section id="no-more-tables">
+                                  <table class="table table-bordered table-striped table-condensed cf">
+                                      <thead class="cf">
+                                      <tr>
+                                          <th>후보자명</th>
+                                          <th>프로젝트명</th>
+                                          <th class="numeric">진행상태</th>
+                                          <th class="numeric">예정일</th>
+                                       
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <tr>
+                                          <td data-title="Code">홍길동</td>
+                                          <td data-title="Company">Agile 전문가</td>
+                                          <td data-title="Price">1차면접대기중</td>
+                                          <td data-title="Change">18-07-20</td>
+                                      </tr>
+
+									  <tr>
+                                          <td data-title="Code">김철수</td>
+                                          <td data-title="Company">한솔MICE 영업</td>
+                                          <td data-title="Price">1차면접대기중</td>
+                                          <td data-title="Change">18-07-25</td>
+                                      </tr>
+                                
+                                      </tbody>
+                                  </table>
+                              </section>
+                          </div>
+                      </section>
+                  </div>
+				  		  <div class="col-lg-6">
+                      <section class="panel">
+                          <header class="panel-heading">
+                             공지사항
+                          </header>
+                          <div class="panel-body">
+                              <section id="no-more-tables">
+                                  <table class="table table-bordered table-striped table-condensed cf">
+                                      <thead class="cf">
+                                      <tr>
+                                          <th></th>
+                                          <th>등록일</th>
+                                          <th class="numeric">공지구분</th>
+                                          <th class="numeric">공지제목</th>
+                                       
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <tr>
+                                          <td data-title="Code">중요</td>
+                                          <td data-title="Company">18-07-20</td>
+                                          <td data-title="Price">일반</td>
+                                          <td data-title="Change">Agile 전문가</td>
+                                      </tr>
+									   <tr>
+                                          <td data-title="Code">중요</td>
+                                          <td data-title="Company">18-07-25</td>
+                                          <td data-title="Price">입사소식</td>
+                                          <td data-title="Change">한솔MICE 영업</td>
+                                      </tr>
+                                
+                                      </tbody>
+                                  </table>
+                              </section>
+                          </div>
+                      </section>
+                  </div>
+				  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              본인채용공고(진행중)
+                          </header>
+                          <div class="panel-body">
+                              <section id="no-more-tables">
+                                  <table class="table table-bordered table-striped table-condensed cf">
+                                      <thead class="cf">
+                                      <tr>
+                                          <th>등록일</th>
+                                          <th>채용공고명</th>
+                                          <th class="numeric">담당자</th>
+                                          <th class="numeric">총 추천현황</th>
+										  <th class="numeric">컨택중</th>
+										  <th class="numeric">이력서 접수</th>
+										  <th class="numeric">서류전형중</th>
+										  <th class="numeric">면접진행</th>
+										  <th class="numeric">합격</th>
+                                       
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <tr>
+                                          <td data-title="Code">18-08-01</td>
+                                          <td data-title="Company">Agile 전문가</td>
+                                          <td data-title="Price">강용오</td>
+                                          <td data-title="Change">4/2</td>
+										  <td data-title="Change">3/0</td>
+										  <td data-title="Change">1/1</td>
+										  <td data-title="Change">0/1</td>
+										  <td data-title="Change">0</td>
+										  <td data-title="Change">0</td>
+                                      </tr>
+
+									   <tr>
+                                          <td data-title="Code">18-08-07</td>
+                                          <td data-title="Company">한솔MICE 영업</td>
+                                          <td data-title="Price">강용오</td>
+                                          <td data-title="Change">5/1</td>
+										  <td data-title="Change">4/0</td>
+										  <td data-title="Change">2/1</td>
+										  <td data-title="Change">1/0</td>
+										  <td data-title="Change">0</td>
+										  <td data-title="Change">0</td>
+                                      </tr>
+                                
+                                      </tbody>
+                                  </table>
+                              </section>
+                          </div>
+                      </section>
+                  </div>
+
+				  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading">
+                              타인채용공고(진행중)
+                          </header>
+                          <div class="panel-body">
+                              <section id="no-more-tables">
+                            <table class="table table-bordered table-striped table-condensed cf">
+                                      <thead class="cf">
+                                      <tr>
+                                          <th>등록일</th>
+                                          <th>채용공고명</th>
+                                          <th class="numeric">담당자</th>
+                                          <th class="numeric">총 추천현황</th>
+										  <th class="numeric">컨택중</th>
+										  <th class="numeric">이력서 접수</th>
+										  <th class="numeric">서류전형중</th>
+										  <th class="numeric">면접진행</th>
+										  <th class="numeric">합격</th>
+                                       
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <tr>
+                                          <td data-title="Code">18-08-31</td>
+                                          <td data-title="Company">Agile 전문가</td>
+                                          <td data-title="Price">김영민</td>
+                                          <td data-title="Change">2</td>
+										  <td data-title="Change">1</td>
+										  <td data-title="Change">1</td>
+										  <td data-title="Change">0/1</td>
+										  <td data-title="Change">0</td>
+										  <td data-title="Change">0</td>
+                                      </tr>
+
+									   <tr>
+                                          <td data-title="Code">18-07-19</td>
+                                          <td data-title="Company">한솔MICE 영업</td>
+                                          <td data-title="Price">조철수</td>
+                                          <td data-title="Change">1</td>
+										  <td data-title="Change">0</td>
+										  <td data-title="Change">0</td>
+										  <td data-title="Change">1/0</td>
+										  <td data-title="Change">0</td>
+										  <td data-title="Change">0</td>
+                                      </tr>
+
+									  	<tr>
+                                          <td data-title="Code">18-07-25</td>
+                                          <td data-title="Company">Jala PMD 영업</td>
+                                          <td data-title="Price">김미영</td>
+                                          <td data-title="Change">1</td>
+										  <td data-title="Change">0</td>
+										  <td data-title="Change">0</td>
+										  <td data-title="Change">1/0</td>
+										  <td data-title="Change">0</td>
+										  <td data-title="Change">0</td>
+                                      </tr>
+                                
+                                      </tbody>
+                                  </table>
+                              </section>
+                          </div>
+                      </section>
+                  </div>
+              <!-- page end-->
+
+          <!-- page end-->
+          </section>
+      </section>
+      <!--main content end-->
+      <!--footer start-->
+     <?php include("footer.php");?>
+      <!--footer end-->
+  </section>
+	<!--custom checkbox & radio-->
+  <script type="text/javascript" src="js/ga.js"></script>
+    <!--this page plugins-->
+  <script src="js/jquery.js"></script>
+    <!--this page plugins-->
+  <script type="text/javascript" src="js/bootstrap-fileupload.js"></script>
+  <!--bootstrap-switch-->
+  <script src="js/bootstrap-switch.js"></script>
+  <!--bootstrap-switch-->
+  <!--custom tagsinput-->
+  <script src="js/jquery.tagsinput.js"></script>
+  <!-- ckEditor-->
+  <script type="text/javascript" src="js/ckeditor.js"></script>
+  <script type="text/javascript" src="js/bootstrap-inputmask.min.js"></script>
+  <!-- script for this page -->
+  <script src="js/form-component.js"></script>
+  <!--bootstrap swither-->
+  <script type="text/javascript">
+      $(document).ready(function () {
+          // Resets to the regular style
+          $('#dimension-switch').bootstrapSwitch('setSizeClass', '');
+          // Sets a mini switch
+          $('#dimension-switch').bootstrapSwitch('setSizeClass', 'switch-mini');
+          // Sets a small switch
+          $('#dimension-switch').bootstrapSwitch('setSizeClass', 'switch-small');
+          // Sets a large switch
+          $('#dimension-switch').bootstrapSwitch('setSizeClass', 'switch-large');
+
+
+          $('#change-color-switch').bootstrapSwitch('setOnClass', 'success');
+          $('#change-color-switch').bootstrapSwitch('setOffClass', 'danger');
+      });
+  </script>
+  </body>
+</html>
