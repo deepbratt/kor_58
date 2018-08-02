@@ -38,20 +38,19 @@
         <h2 class="form-signin-heading">Sign In</h2>
         <div class="login-wrap">
 			<div class="form-group">
-				  <label class="col-lg-4 col-sm-4 control-label"> 사용자ID </label>
-				  <div class="col-lg-8">
+				  <label class="col-lg-3 col-sm-3 control-label" style="font-size:12px;font-weight:normal;padding:10px 0px;"> 사용자ID </label>
+				  <div class="col-lg-9" style="padding:0px;">
 						 <input type="text" class="form-control" placeholder="회사이메일 입력">
 				  </div>
 			</div>
 
 			<div class="form-group">
-				  <label class="col-lg-4 col-sm-4 control-label"> 비밀번호 </label>
-				  <div class="col-lg-8">
+				  <label class="col-lg-3 col-sm-3 control-label" style="font-size:12px;font-weight:normal;padding:10px 0px;"> 비밀번호 </label>
+				  <div class="col-lg-9" style="padding:0px;">
 						 <input type="text" class="form-control" placeholder="비밀번호 입력">
 				  </div>
 			</div>
 
-             <input type="password" class="form-control" placeholder="">
             <label class="checkbox">
                 <span class="pull-right">
                     <a data-toggle="modal" href="#myModal"> Forgot Password?</a>
@@ -69,7 +68,7 @@
 
         </div>
 
-          <!-- Modal
+          <!-- Modal -->
           <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
               <div class="modal-dialog">
                   <div class="modal-content">
@@ -78,18 +77,60 @@
                           <h4 class="modal-title">Forgot Password ?</h4>
                       </div>
                       <div class="modal-body">
-                          <p>Enter your e-mail address below to reset your password.</p>
-                          <input type="text" name="email" placeholder="Email" autocomplete="off" class="form-control placeholder-no-fix">
+                          <div class="col-md-12 topsec">
+							  <p>회사 이메일 주소를 입력해 주시면 해당 이메일로 인증코드가 발송됩니다.</p>
+							  <p>인증코드를 아래 입력하시고 비밀번호를 재설정하시기 바랍니다.</p>
+							  
+							  <p>&nbsp;</p>
 
-                      </div>
-                      <div class="modal-footer">
-                          <button data-dismiss="modal" class="btn btn-default" type="button">Cancel</button>
-                          <button class="btn btn-success" type="button">Submit</button>
+							  <div class="form-group col-md-8 col-md-offset-2">
+								  <label class="col-lg-3 col-sm-3 control-label" style="font-size:12px;font-weight:normal;padding:10px 0px;"> 비밀번호 </label>
+								  <div class="col-lg-9" style="padding:0px;">
+										 <input type="text" class="form-control" placeholder="비밀번호 입력">
+								  </div>
+								  <button class="btn btn-sm btn-login center-block" type="submit"> 인증코드 전송 </button>
+							  </div>
+						  </div>
+						  
+						  <p style="text-align:left;padding-left:30px;"> 비밀번호 변경 </p>
+						  <div class="col-md-12 btmsec">
+								<div class="form-group col-md-12">
+									  <div class="col-lg-6 col-md-6" style="padding:0px;">
+											 <input type="text" class="form-control" placeholder="인증코드">
+									  </div>
+									  <label class="col-lg-6 col-md-6  pull-right" style="font-size:12px;font-weight:normal;padding:10px 10px;"> 인증코드를 입력해 주세요 </label>
+									  
+								</div>
+
+								<div class="form-group col-md-12">
+									  <div class="col-lg-6 col-md-6" style="padding:0px;">
+											<input type="text" class="form-control" placeholder="비밀번호">
+									  </div>
+									  <label class="col-lg-6 col-md-6  pull-right" style="font-size:12px;font-weight:normal;padding:10px 10px;"> 새로운 비밀번호를 입력해 주세요 *숫자, 영문 포함 10자 이상 </label>
+								</div>
+
+								<div class="form-group col-md-12">
+									  <div class="col-lg-6 col-md-6" style="padding:0px;">
+											<input type="text" class="form-control" placeholder="비밀번호 확인">
+									  </div>
+									  <label class="col-lg-6 col-md-6  pull-right" style="font-size:12px;font-weight:normal;padding:10px 10px;"> 비밀번호를 한번 더 입력해 주세요 </label>
+								</div>
+
+								<div class="form-group col-md-8 col-md-offset-2">
+									  <div class="col-lg-6 col-md-6" style="padding:0px;">
+											<button class="btn btn-sm btn-login center-block" type="submit" style="width:150px;> 비밀번호 변경 </button>
+									  </div>
+									  <div class="col-lg-6 col-md-6" style="padding:0px;">
+											<button class="btn btn-sm btn-login center-block" type="submit" style="width:150px;"> 닫기 </button>
+									  </div>
+								</div>
+						   </div>
+						  <div class="clearfix"></div>
                       </div>
                   </div>
               </div>
           </div>
-          modal -->
+          <!-- modal -->
 
       </form>
 
