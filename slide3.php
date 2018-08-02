@@ -29,111 +29,41 @@
 
   <body class="login-body">
 
-    <div class="container">
-	  <h1 style="text-align:center;margin-top:50px;"><img src="images/logo.png"></h1>
-	  <h3 style="text-align:center;">Welcome! 글로벌 인재 서치펌 <br />
-		경연파트너스 업무관리시스템
-	  </h3>
-      <form class="form-signin" style="margin-top:40px;">
-        <h2 class="form-signin-heading">Sign In</h2>
-        <div class="login-wrap">
-			<div class="form-group">
-				  <label class="col-lg-3 col-sm-3 control-label" style="font-size:12px;font-weight:normal;padding:10px 0px;"> 사용자ID </label>
-				  <div class="col-lg-9" style="padding:0px;">
-						 <input type="text" class="form-control" placeholder="회사이메일 입력">
-				  </div>
-			</div>
-
-			<div class="form-group">
-				  <label class="col-lg-3 col-sm-3 control-label" style="font-size:12px;font-weight:normal;padding:10px 0px;"> 비밀번호 </label>
-				  <div class="col-lg-9" style="padding:0px;">
-						 <input type="text" class="form-control" placeholder="비밀번호 입력">
-				  </div>
-			</div>
-
-            <label class="checkbox">
-                <span class="pull-right">
-                    <a data-toggle="modal" href="#myModal"> Forgot Password?</a>
-                </span>
-				<p>&nbsp;</p>
-            </label>
-            <button class="btn btn-lg btn-login btn-block" type="submit">Sign in</button>
-
-            <!--<div class="registration">
-                Don't have an account yet?
-                <a class="" href="registration.html">
-                    Create an account
-                </a>
-            </div>-->
-
-        </div>
-
-          <!-- Modal -->
-          <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
-              <div class="modal-dialog">
-                  <div class="modal-content">
-                      <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                          <h4 class="modal-title">Forgot Password ?</h4>
-                      </div>
-                      <div class="modal-body">
-                          <div class="col-md-12 topsec">
-							  <p>회사 이메일 주소를 입력해 주시면 해당 이메일로 인증코드가 발송됩니다.</p>
-							  <p>인증코드를 아래 입력하시고 비밀번호를 재설정하시기 바랍니다.</p>
-							  
-							  <p>&nbsp;</p>
-
-							  <div class="form-group col-md-8 col-md-offset-2">
-								  <label class="col-lg-3 col-sm-3 control-label" style="font-size:12px;font-weight:normal;padding:10px 0px;"> 비밀번호 </label>
-								  <div class="col-lg-9" style="padding:0px;">
-										 <input type="text" class="form-control" placeholder="비밀번호 입력">
-								  </div>
-								  <button class="btn btn-sm btn-login center-block" type="submit"> 인증코드 전송 </button>
-							  </div>
-						  </div>
-						  
-						  <p style="text-align:left;padding-left:30px;"> 비밀번호 변경 </p>
-						  <div class="col-md-12 btmsec">
-								<div class="form-group col-md-12">
-									  <div class="col-lg-6 col-md-6" style="padding:0px;">
-											 <input type="text" class="form-control" placeholder="인증코드">
-									  </div>
-									  <label class="col-lg-6 col-md-6  pull-right" style="font-size:12px;font-weight:normal;padding:10px 10px;"> 인증코드를 입력해 주세요 </label>
-									  
-								</div>
-
-								<div class="form-group col-md-12">
-									  <div class="col-lg-6 col-md-6" style="padding:0px;">
-											<input type="text" class="form-control" placeholder="비밀번호">
-									  </div>
-									  <label class="col-lg-6 col-md-6  pull-right" style="font-size:12px;font-weight:normal;padding:10px 10px;"> 새로운 비밀번호를 입력해 주세요 *숫자, 영문 포함 10자 이상 </label>
-								</div>
-
-								<div class="form-group col-md-12">
-									  <div class="col-lg-6 col-md-6" style="padding:0px;">
-											<input type="text" class="form-control" placeholder="비밀번호 확인">
-									  </div>
-									  <label class="col-lg-6 col-md-6  pull-right" style="font-size:12px;font-weight:normal;padding:10px 10px;"> 비밀번호를 한번 더 입력해 주세요 </label>
-								</div>
-
-								<div class="form-group col-md-8 col-md-offset-2">
-									  <div class="col-lg-6 col-md-6" style="padding:0px;">
-											<button class="btn btn-sm btn-login center-block" type="button" style="width:150px;"> 비밀번호 변경 </button>
-									  </div>
-									  <div class="col-lg-6 col-md-6" style="padding:0px;">
-											<button class="btn btn-sm btn-login center-block" type="submit" style="width:150px;"> 닫기 </button>
-									  </div>
-								</div>
-						   </div>
-						  <div class="clearfix"></div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!-- modal -->
+    <div class="container ">
+	  <p>&nbsp;</p>
+	  <h3 style="text-align:center;">발신 제목: 비밀번호 변경을 위한 인증코드 </h3>
 		
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			  <div class="modal-header">
+				  <h4 class="modal-title">  <img src="images/logo.png" style="height:30px;"> ㈜ 경연파트너스 KY Consulting Group </h4>
+			  </div>
+			  <div class="modal-body">
+				  <div class="col-md-12 topsec">
+						<p>&nbsp;</p>
+						<p style="text-align:left;">안녕하세요. 경연파트너스 시스템 운영 팀입니다. </p>
+
+						<p style="text-align:left;">비밀번호 변경을 위한 인증코드입니다. </p>
+						<p style="text-align:left;">인증코드를 화면상에 입력하시고 비번을 변경하시기 바랍니다. </p>
+						<p>&nbsp;</p>
+						<p style="text-align:left;font-weight:bold;">XGE03KGYT</p>
+						<p>&nbsp;</p>
+						<p style="text-align:left;">직접 비밀번호 변경 인증코드를 요청하신 게 아니시면 </p>
+						<p style="text-align:left;"><a href="mailto:angela.kim@kycg.co.kr">angela.kim@kycg.co.kr</a> 로 메일을 보내 주세요. </p>
+						<p>&nbsp;</p>
+						<p style="text-align:left;">감사합니다.</p>
+						<p style="text-align:left;">경연 파트너스 시스템 운영팀</p>
+				  </div>
+				  <div class="clearfix"></div>
+			  </div>
+
+
+		  </div>
+	  </div>
+		  <p style="text-align:center;"> <button data-toggle="modal" href="#success_pass" class="btn btn-sm"> Confirm popup</button> </p>
 		  <!-- change password -->
           <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="success_pass" class="modal fade">
+			  <form method="POST" action="">
               <div class="modal-dialog">
                   <div class="modal-content">
                       <div class="modal-header">
@@ -142,8 +72,8 @@
                       </div>
                       <div class="modal-body">
                           <div class="col-md-12 topsec">
-							  <p> 비밀번호가 변경되었습니다. </p>
-							  <p> 다시 로그인하시기 바랍니다. </p>
+							  <p style="text-align:center;"> 비밀번호가 변경되었습니다. </p>
+							  <p style="text-align:center;"> 다시 로그인하시기 바랍니다. </p>
 							  
 							  <p>&nbsp;</p>
 
@@ -156,10 +86,10 @@
                       </div>
                   </div>
               </div>
+			  </form>
           </div>
           <!-- success change password -->
 
-      </form>
 
     </div>
 
