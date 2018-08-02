@@ -50,7 +50,7 @@
 			 </div>
 
 			  <!-- page start-->
-              
+              <div class="row">
                   <div class="col-lg-6">
                       <section class="panel">
                           <header class="panel-heading">
@@ -111,9 +111,10 @@
                           </div>
                       </section>
                   </div>
-              
-
-			  		  <div class="col-lg-6">
+              </div>
+			
+			 <div class="row">
+			  	<div class="col-lg-6">
                       <section class="panel">
                           <header class="panel-heading">
                              추천일정(진행중)
@@ -151,7 +152,7 @@
                           </div>
                       </section>
                   </div>
-				  		  <div class="col-lg-6">
+				  <div class="col-lg-6">
                       <section class="panel">
                           <header class="panel-heading">
                              공지사항
@@ -188,6 +189,9 @@
                           </div>
                       </section>
                   </div>
+			</div>
+
+			<div class="row">
 				  <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
@@ -241,7 +245,9 @@
                           </div>
                       </section>
                   </div>
+			</div>
 
+			<div class="row">
 				  <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
@@ -307,6 +313,7 @@
                           </div>
                       </section>
                   </div>
+			  </div>
               <!-- page end-->
 
           <!-- page end-->
