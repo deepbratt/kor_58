@@ -83,7 +83,7 @@
                   <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
-                              검색결과:10건
+                              <span>검색결과:10건</span>
                           </header>
                           <div class="panel-body">
                               <div class="adv-table">
