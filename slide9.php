@@ -16,6 +16,9 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />
     <!-- switchery-->
     <link rel="stylesheet" type="text/css" href="css/switchery.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="css/datetimepicker.css" />
     <!--select 2-->
     <!--  summernote -->
 	<link href="css/yamm.css" rel="stylesheet">
@@ -47,7 +50,7 @@
 			 </div>
 
 			  <!-- page start-->
-              <div class="row">
+              
                   <div class="col-lg-6">
                       <section class="panel">
                           <header class="panel-heading">
@@ -60,7 +63,7 @@
                                       <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012" class="input-append date dpYears">
                                           <input type="text" readonly="" value="12-02-2012" size="16" class="form-control" >
                                               <span class="input-group-btn add-on" >
-                                                <button class="btn btn-danger" type="button" style="padding:6.5px !important;"><i class="fa fa-calendar"></i></button>
+                                                <button class="btn btn-danger" type="button" ><i class="fa fa-calendar"></i></button>
 											</span>
                                       </div>
                                   </div>
@@ -68,7 +71,7 @@
                                       <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012" class="input-append date dpYears">
                                           <input type="text" readonly="" value="12-02-2012" size="16" class="form-control">
                                               <span class="input-group-btn add-on">
-                                                <button class="btn btn-danger" type="button" style="padding:6.5px !important;"><i class="fa fa-calendar"></i></button>
+                                                <button class="btn btn-danger" type="button" ><i class="fa fa-calendar"></i></button>
 											</span>
                                       </div>
                                   </div>
@@ -108,7 +111,7 @@
                           </div>
                       </section>
                   </div>
-              </div>
+              
 
 			  		  <div class="col-lg-6">
                       <section class="panel">
@@ -328,6 +331,10 @@
   <!-- ckEditor-->
   <script type="text/javascript" src="js/ckeditor.js"></script>
   <script type="text/javascript" src="js/bootstrap-inputmask.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+  <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+  <!--select2-->
+  <script src="js/advanced-form-components.js"></script>
   <!-- script for this page -->
   <script src="js/form-component.js"></script>
   <!--bootstrap swither-->
