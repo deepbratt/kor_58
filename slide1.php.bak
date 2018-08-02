@@ -118,7 +118,7 @@
 
 								<div class="form-group col-md-8 col-md-offset-2">
 									  <div class="col-lg-6 col-md-6" style="padding:0px;">
-											<button class="btn btn-sm btn-login center-block" type="submit" style="width:150px;> 비밀번호 변경 </button>
+											<button class="btn btn-sm btn-login center-block" type="button" style="width:150px;" data-toggle="modal" href="#success_pass"> 비밀번호 변경 </button>
 									  </div>
 									  <div class="col-lg-6 col-md-6" style="padding:0px;">
 											<button class="btn btn-sm btn-login center-block" type="submit" style="width:150px;"> 닫기 </button>
@@ -131,6 +131,33 @@
               </div>
           </div>
           <!-- modal -->
+		
+		  <!-- change password -->
+          <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="success_pass" class="modal fade">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                          <h4 class="modal-title"> 비밀번호 변경 </h4>
+                      </div>
+                      <div class="modal-body">
+                          <div class="col-md-12 topsec">
+							  <p> 비밀번호가 변경되었습니다. </p>
+							  <p> 다시 로그인하시기 바랍니다. </p>
+							  
+							  <p>&nbsp;</p>
+
+							  <div class="form-group col-md-8 col-md-offset-2">
+								  <button class="btn btn-sm btn-login center-block" type="submit"> 확인 </button>
+							  </div>
+						  </div>
+						  
+						  <div class="clearfix"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- success change password -->
 
       </form>
 
