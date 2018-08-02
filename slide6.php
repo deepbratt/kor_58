@@ -10,15 +10,6 @@
 
     <title>Slide 6</title>
 	<?php include("metalinks.php");?>
-    <link href="css/table-responsive.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-fileupload.css" />
-    <!--bootstrap switcher-->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />
-    <!-- switchery-->
-    <link rel="stylesheet" type="text/css" href="css/switchery.css" />
-    <!--select 2-->
-    <!--  summernote -->
-	<link href="css/yamm.css" rel="stylesheet">
 	<style>
 		.bottom_border{
 			border-bottom: none !important;
@@ -39,15 +30,12 @@
 			 <div class="row">
 				<div class="col-md-12">
 					<section class="panel">
-                          
                           <div class="panel-body">
-						   
 							<form class="form-horizontal tasi-form" method="POST">
 							<header class="form-group bottom_border" style="font-size:1.5em;padding:15px;"> 3. 경력사항 </header>
 							  <div class="col-sm-12">
 							   <div class="row">
 							    <div class="col-sm-12">
-								  
                                   <div class="form-group bottom_border">
                                       <label class="col-sm-3 control-label">재직기업</label>
                                       <div class="col-sm-2">
@@ -72,8 +60,7 @@
                                           <input type="text" class="form-control" placeholder="입력후 엔터">
                                       </div>
 									  <div class="col-sm-5">
-                                          <input type="text" id="tagsinput" class="tagsinput" value="B2B,e-Commerce,신규사업기획
-">
+                                          <input type="text" id="tagsinput" class="tagsinput" value="B2B,e-Commerce,신규사업기획">
                                       </div>
 									  <div class="col-sm-2">
                                           <div class="col-md-2">
@@ -114,104 +101,55 @@
 										 </div>
                                       </div>
                                   </div>
+								  <div class="col-sm-10">
+									  <div class="pull-right">
+										  <a class="btn btn-info" data-toggle="modal" href="#enroll"> 등록</a>
+										  <button class="btn btn-default" type="button">닫기</button>
+									  </div>
+								  </div>
 								</div>
 								 </div>
-
+								<!-- MODAL Start -->
+									<div class="modal fade modal-dialog-center " id="enroll" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									  <div class="modal-dialog ">
+										  <div class="modal-content-wrap">
+											  <div class="modal-content">
+												  <div class="modal-header">
+													  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+													  <h4 class="modal-title">프로필 등록 확인</h4>
+												  </div>
+												  <div class="modal-body">내 프로필을 등록하시겠습니까?.</div>
+												  <div class="modal-footer">
+													  <button data-dismiss="modal" class="btn btn-default" type="button">취소</button>
+													  <button class="btn btn-warning" type="button"> 확인</button>
+												  </div>
+											  </div>
+										  </div>
+									  </div>
+								  </div>
+								<!-- Modal Ends -->
                               </form>
                           </div>
                       </section>
 				</div>
 			 </div>
-
-			  <!-- page start-->
-              <div class="row">
-                  <div class="col-lg-12">
-                      <section class="panel">
-                          <header class="panel-heading">
-                              No More Tables
-                          </header>
-                          <div class="panel-body">
-                              <section id="no-more-tables">
-                                  <table class="table table-bordered table-striped table-condensed cf">
-                                      <thead class="cf">
-                                      <tr>
-                                          <th>지역</th>
-                                          <th>학교구분</th>
-                                          <th class="numeric">학교명</th>
-                                          <th class="numeric">전공명</th>
-                                          <th class="numeric">졸업여부</th>
-                                          <th class="numeric">최종학력</th>
-                                          <th class="numeric">삭제</th>
-                                      </tr>
-                                      </thead>
-                                      <tbody>
-                                      <tr>
-                                          <td data-title="Code">국내</td>
-                                          <td data-title="Company">대학교</td>
-                                          <td data-title="Price">성균관대학교</td>
-                                          <td data-title="Change"></td>
-                                          <td data-title="Change %"></td>
-                                          <td data-title="Open"><input type="radio" checked></td>
-                                          <td data-title="High"><input type="checkbox" checked></td>
-                                      </tr>
-                                      <tr>
-                                          <td data-title="Code">국내</td>
-                                          <td data-title="Company">고등학교</td>
-                                          <td data-title="Price">문영여자고등학교</td>
-                                          <td data-title="Change"></td>
-                                          <td data-title="Change %"></td>
-                                          <td data-title="Open"><input type="radio"></td>
-                                          <td data-title="High"><input type="checkbox" checked></td>
-                                      </tr>
-                                      </tbody>
-                                  </table>
-                              </section>
-                          </div>
-                      </section>
-                  </div>
-              </div>
-              <!-- page end-->
-
-          <!-- page end-->
-          </section>
-      </section>
+		</div>
+	  <!-- page end-->
+	  
+	  </section>
+  </section>
       <!--main content end-->
       <!--footer start-->
      <?php include("footer.php");?>
+	 
       <!--footer end-->
   </section>
-	<!--custom checkbox & radio-->
-  <script type="text/javascript" src="js/ga.js"></script>
     <!--this page plugins-->
   <script src="js/jquery.js"></script>
-    <!--this page plugins-->
-  <script type="text/javascript" src="js/bootstrap-fileupload.js"></script>
-  <!--bootstrap-switch-->
-  <script src="js/bootstrap-switch.js"></script>
-  <!--bootstrap-switch-->
   <!--custom tagsinput-->
   <script src="js/jquery.tagsinput.js"></script>
-  <!-- ckEditor-->
-  <script type="text/javascript" src="js/ckeditor.js"></script>
-  <script type="text/javascript" src="js/bootstrap-inputmask.min.js"></script>
   <!-- script for this page -->
   <script src="js/form-component.js"></script>
   <!--bootstrap swither-->
-  <script type="text/javascript">
-      $(document).ready(function () {
-          // Resets to the regular style
-          $('#dimension-switch').bootstrapSwitch('setSizeClass', '');
-          // Sets a mini switch
-          $('#dimension-switch').bootstrapSwitch('setSizeClass', 'switch-mini');
-          // Sets a small switch
-          $('#dimension-switch').bootstrapSwitch('setSizeClass', 'switch-small');
-          // Sets a large switch
-          $('#dimension-switch').bootstrapSwitch('setSizeClass', 'switch-large');
-
-
-          $('#change-color-switch').bootstrapSwitch('setOnClass', 'success');
-          $('#change-color-switch').bootstrapSwitch('setOffClass', 'danger');
-      });
-  </script>
   </body>
 </html>
