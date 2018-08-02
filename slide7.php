@@ -9,11 +9,11 @@
     <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <title>Profile</title>
-
+    <title>Slide 7</title>
    <?php include("metalinks.php");?>
-       <link href="css/table-responsive.css" rel="stylesheet" />
-
+   <link href="css/table-responsive.css" rel="stylesheet" />
+	   <!--  summernote -->
+   <link href="css/yamm.css" rel="stylesheet">
   </head>
 
   <body class="mega-nav">
