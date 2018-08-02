@@ -10,6 +10,8 @@
 
     <title>Slide 6</title>
 	<?php include("metalinks.php");?>
+    <!--  summernote -->
+	<link href="css/yamm.css" rel="stylesheet">
 	<style>
 		.bottom_border{
 			border-bottom: none !important;

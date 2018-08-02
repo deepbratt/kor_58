@@ -10,11 +10,13 @@
 
     <title>Slide 10</title>
 	<?php include("metalinks.php");?>
-    <link href="css/table-responsive.css" rel="stylesheet" />
     <!--bootstrap switcher-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />
     <link rel="stylesheet" type="text/css" href="css/datepicker.css" />
     <link rel="stylesheet" type="text/css" href="css/datetimepicker.css" />
+	<link href="css/demo_page.css" rel="stylesheet" />
+    <link href="css/demo_table.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/DT_bootstrap.css" />
     <!--  summernote -->
 	<link href="css/yamm.css" rel="stylesheet">
 	<style>
@@ -105,49 +107,49 @@
                               검색결과:4건
                           </header>
                           <div class="panel-body">
-                              <section id="no-more-tables">
+                              <div class="adv-table">
                                   <table  class="display table table-bordered table-striped" id="dynamic-table">
-                                      <thead class="cf">
+                                      <thead>
                                       <tr>
                                           <th>로그종류</th>
                                           <th>로그시간</th>
-                                          <th class="numeric">직원명</th>
-                                          <th class="numeric">직원계정</th>
-                                          <th class="numeric">상세정보</th>
+                                          <th>직원명</th>
+                                          <th>직원계정</th>
+                                          <th>상세정보</th>
                                       </tr>
                                       </thead>
                                       <tbody>
                                       <tr>
-                                          <td data-title="Code">로그인</td>
-                                          <td data-title="Company">2018-07-13  11:24:11 AM</td>
-                                          <td data-title="Price">강용오</td>
-                                          <td data-title="Change">Andrew</td>
-                                          <td data-title="Change %">[211.178.126.92] 로그인</td>
+                                          <td>로그인</td>
+                                          <td>2018-07-13  11:24:11 AM</td>
+                                          <td>강용오</td>
+                                          <td>Andrew</td>
+                                          <td>[211.178.126.92] 로그인</td>
                                       </tr>
                                       <tr>
-                                          <td data-title="Code">인재-인재상세</td>
-                                          <td data-title="Company">2018-07-10  14:36:11 AM</td>
-                                          <td data-title="Price">강용오</td>
-                                          <td data-title="Change">Andrew</td>
-                                          <td data-title="Change %">[211.178.126.92] 후보자명: 김태령(1977:여) (1/30)</td>
+                                          <td>인재-인재상세</td>
+                                          <td>2018-07-10  14:36:11 AM</td>
+                                          <td>강용오</td>
+                                          <td>Andrew</td>
+                                          <td>[211.178.126.92] 후보자명: 김태령(1977:여) (1/30)</td>
                                       </tr>
 									  <tr>
-                                          <td data-title="Code">고객사 목록>고객사상세</td>
-                                          <td data-title="Company">2018-07-10  13:01:11 AM</td>
-                                          <td data-title="Price">강용오</td>
-                                          <td data-title="Change">Andrew</td>
-                                          <td data-title="Change %">[211.178.126.92] 삼성SDS </td>
+                                          <td>고객사 목록>고객사상세</td>
+                                          <td>2018-07-10  13:01:11 AM</td>
+                                          <td>강용오</td>
+                                          <td>Andrew</td>
+                                          <td>[211.178.126.92] 삼성SDS </td>
                                       </tr>
 									  <tr>
-                                          <td data-title="Code">채용공고-채용공고 상세</td>
-                                          <td data-title="Company">2018-07-10  11:24:11 AM</td>
-                                          <td data-title="Price">강용오</td>
-                                          <td data-title="Change">Andrew</td>
-                                          <td data-title="Change %">[211.178.126.92] 삼성SDS – Agile 전문가</td>
+                                          <td>채용공고-채용공고 상세</td>
+                                          <td>2018-07-10  11:24:11 AM</td>
+                                          <td>강용오</td>
+                                          <td>Andrew</td>
+                                          <td>[211.178.126.92] 삼성SDS – Agile 전문가</td>
                                       </tr>
                                       </tbody>
                                   </table>
-                              </section>
+                              </div>
                           </div>
                       </section>
                   </div>
@@ -172,5 +174,8 @@
   <!--select2-->
   <script src="js/advanced-form-components.js"></script>
 
+  <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+  <script type="text/javascript" src="js/DT_bootstrap.js"></script>
+  <script src="js/dynamic_table_init.js"></script>
   </body>
 </html>
