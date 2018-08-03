@@ -192,10 +192,221 @@
 
 											 </form>
 										  </div>
-										  <div id="about" class="tab-pane">About</div>
-										  <div id="profile" class="tab-pane">Profile</div>
+										  <div id="about" class="tab-pane">
+											<div class="panel-body">
+											  <div class="adv-table">
+												  <table  class="display table table-bordered table-striped" id="dynamic-table">
+													  <thead>
+													  <tr>
+														  <th colspan="2">직종 대분류</th>
+														  <th colspan="4">직종 상세분류</th>
+													  </tr>
+													  </thead>
+													  <tbody>
+													  <tr>
+														  <td>생산·제조></td>
+														  <td>특수계층공공</td>
+														  <td>전체</td>
+														  <td>금속·금형</td>
+														  <td>기계·기계설비</td>
+														  <td>화학·에너지</td>
+													  </tr>
+													  <tr>
+														  <td>디자인</td>
+														  <td>서비스</td>
+														  <td>섬유·의류·패션</td>
+														  <td>전기·전자·제어</td>
+														  <td>생산관리·품질관리</td>
+														  <td>반도체·디스플레이·LCD</td>
+													  </tr>
+													  <tr>
+														  <td>IT·인터넷</td>
+														  <td>건설</td>
+														  <td>생산·제조·포장·조립</td>
+														  <td>비금속·요업·신소재</td>
+														  <td>바이오·제약·식품</td>
+														  <td>설계·CAD·CAM</td>
+													  </tr>
+													  <tr>
+														  <td>경영사무</td>
+														  <td>교육</td>
+														  <td>안경·렌즈·광학</td>
+														  <td></td>
+														  <td></td>
+														  <td></td>
+													  </tr>
+													  <tr>
+														  <td>전문직</td>
+														  <td>미디어</td>
+														  <td></td>
+														  <td></td>
+														  <td></td>
+														  <td></td>
+													  </tr>
+													  <tr>
+														  <td>영업고객상담</td>
+														  <td>의료</td>
+														  <td></td>
+														  <td></td>
+														  <td></td>
+														  <td></td>
+													  </tr>
+													  <tr>
+														  <td>생산·제조</td>
+														  <td>특수계층공공</td>
+														  <td></td>
+														  <td></td>
+														  <td></td>
+														  <td></td>
+													  </tr>
+													  </tbody>
+												  </table>
+											  </div>
+										  </div>
+									  </div>
+									  <div id="profile" class="tab-pane">
+										<div class="panel-body">
+											<div class="col-sm-12">
+											   <div class="row">
+													  <div class="col-sm-4">
+														<div class="row">
+															<div class="col-sm-4">
+																<header class="panel-heading bottom_border">최종학력</header>
+															</div>
+															<div class="col-sm-8">
+															  <div class="adv-table">
+																  <table  class="display table table-bordered table-striped" id="dynamic-table">
+																	  <tbody>
+																	  <tr>
+																		  <td>고등학교 이하(5)</td>
+																	  </tr>
+																	  <tr>
+																		  <td>대학교 4년(167)</td>
+																	  </tr>
+																	  <tr>
+																		  <td>대학교 2,3년(12)</td>
+																	  </tr>
+																	  <tr>
+																		  <td>대학원 석사(10)</td>
+																	  </tr>
+																	  <tr>
+																		  <td>대학원 박사(5)</td>
+																	  </tr>
+																	  </tbody>
+																  </table>
+															  </div>
+														   </div>
+														 </div>
+													</div>
+												   <div class="col-sm-3">
+													 <div class="row">
+													  <div class="col-sm-12">
+															<div class="col-sm-4" style="padding:0px;margin:0px;">
+																<button class="btn btn-default" type="submit">국내</button>
+															</div>
+															<div class="col-sm-4" style="padding:0px;margin:0px;">
+																<button class="btn btn-default" type="submit">해외</button>
+															</div>
+														</div>
+													  </div>
+												   </div>
+
+												   <div class="col-sm-5">
+													<div class="col-sm-12">
+													  <div class="row">
+														<div class="col-sm-2" style="padding:0px;margin:0px;">
+															<label>대학명</label>
+														</div>
+														<div class="col-sm-8">
+															<div class="input-group m-bot15">
+																  <input type="text" class="form-control" placeholder="전체">
+																  <span class="input-group-btn">
+																	<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
+																  </span>
+															</div>
+														</div>
+														<div class="col-sm-2">
+															<button class="btn btn-info">추가</button>
+														</div>
+													  </div>
+													<div class="row">
+													  <div class="col-sm-2" style="padding:0px;margin:0px;">
+														<label>선호대학</label>
+													  </div>
+													  <div class="col-sm-10">
+														  <div class="adv-table">
+															  <table  class="display table table-bordered table-striped" id="dynamic-table">
+																  <tbody>
+																  <tr>
+																	  <td>서울대학교(5)</td>
+																	  <td>연세대학교(5)</td>
+																	  <td>고려대학교(5)</td>
+																  </tr>
+																  <tr>
+																	  <td>서강대학교(6)</td>
+																	  <td>한양대학교(7)</td>
+																	  <td>이화여자대학교(7)</td>
+																  </tr>
+																  <tr>
+																	  <td>KAIST(6)</td>
+																	  <td>포항공과대학교(5)</td>
+																	  <td>성균관대학교(6)</td>
+																  </tr>
+																  <tr>
+																	  <td>중앙대학교(4)</td>
+																	  <td>광주과학기술원(5)</td>
+																	  <td>경희대학교(7)</td>
+																  </tr>
+																  <tr>
+																	  <td>한국외국어대학교</td>
+																	  <td>홍익대학교</td>
+																	  <td>부산대학교</td>
+																  </tr>
+																  <tr>
+																	  <td>경북대학교</td>
+																	  <td>숭실대학교</td>
+																	  <td>서울시립대학교</td>
+																  </tr>
+																  </tbody>
+															  </table>
+														  </div>
+														</div>
+													</div>
+												  </div>
+											   </div>
+											</div>
+											<div class="row">
+												<div class="col-sm-12">
+													<div class="row">
+														<div class="col-sm-6">
+															<div class="col-sm-2">
+																<label>외국어</label>
+															</div>
+															<div class="col-sm-4">
+																<div class="input-group m-bot15">
+																  <input type="text" class="form-control" placeholder="외국어명">
+																  <span class="input-group-btn">
+																	<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
+																  </span>
+																</div>
+															</div>
+															<div class="col-sm-4">
+																 <select class="form-control m-bot15">
+																		<option value="수준선택" selected>수준선택</option>
+																  </select>
+															</div>
+															<div class="col-sm-2">
+																<button class="btn btn-info" type="submit">추가</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										  </div>
+										</div>
 									  </div>
 								  </div>
+							  </div>
 							  </section>
 								<div class="col-sm-12" style="margin-top:30px;">
 									  <div class="form-group bottom_border">
