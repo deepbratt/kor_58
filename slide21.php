@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <meta name="keyword" content="">
 
-    <title>Slide 21</title>
+    <title>Slide 21,22,23</title>
 	<?php include("metalinks.php");?>
     <link href="css/table-responsive.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-fileupload.css" />
@@ -42,6 +42,7 @@
                           <header class="panel-heading">인재>인재 목록</header>
                           <div class="panel-body">
 						    <h3 class="form-group">인재 목록</h3>
+						<!-- TAB CONTENT Starts HERE-->
 							<section class="panel"  style="border:2px solid #ddd;padding:10px;">
 								  <header class="panel-heading tab-bg-dark-navy-blue ">
 									  <ul class="nav nav-tabs">
@@ -407,7 +408,8 @@
 									  </div>
 								  </div>
 							  </div>
-							  </section>
+							</section>
+							<!-- TAB CONTENT ENDS HERE-->
 								<div class="col-sm-12" style="margin-top:30px;">
 									  <div class="form-group bottom_border">
 										  <label class="col-sm-1 control-label">키워드</label>
