@@ -19,6 +19,19 @@
     <link rel="stylesheet" href="css/DT_bootstrap.css" />
     <!--  summernote -->
 	<link href="css/yamm.css" rel="stylesheet">
+
+	    <!--  summernote -->
+
+	<!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="css/font-awesome.css" rel="stylesheet" />
+      <!--right slidebar-->
+    <link href="css/slidebars.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
 	<style>
 		.bottom_border{
 			border-bottom: none !important;
@@ -42,7 +55,7 @@
                        
                           <div class="panel-body">
 						    <h3 class="form-group">
-								
+								계약현황
 							</h3>
 							<form class="form-horizontal tasi-form" method="POST">
 							  <div class="col-sm-12">
@@ -127,8 +140,7 @@
                       <section class="panel">
                           <header class="panel-heading">
                               공고진행내역
-							  <span>
-							  </span>
+							  <span class="switch-left">ON</span>
                           </header>
                           <div class="panel-body">
                               <div class="adv-table">
