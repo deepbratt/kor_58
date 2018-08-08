@@ -127,8 +127,6 @@
                       <section class="panel">
                           <header class="panel-heading">
                               공고진행내역
-							  <span>
-							  </span>
                           </header>
                           <div class="panel-body">
                               <div class="adv-table">
