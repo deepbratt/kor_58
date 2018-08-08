@@ -13,6 +13,7 @@
     <!--  summernote -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />
 	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-wysihtml5.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-reset.css" rel="stylesheet">
     <!--external css-->
@@ -22,7 +23,20 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
-
+	<!-- Multiple File Upload -->
+	 <!-- blueimp Gallery styles -->
+      <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+      <!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
+      <link rel="stylesheet" href="css/jquery.fileupload.css">
+      <link rel="stylesheet" href="css/jquery.fileupload-ui.css">
+      <!-- CSS adjustments for browsers with JavaScript disabled -->
+      <noscript>
+          <link rel="stylesheet" href="css/jquery.fileupload-noscript.css">
+      </noscript>
+      <noscript>
+          <link rel="stylesheet" href="css/jquery.fileupload-ui-noscript.css">
+      </noscript>
+	<!-- Ends -->
 	<link href="css/yamm.css" rel="stylesheet">
 	<style>
 		.bottom_border{
@@ -156,82 +170,96 @@
                                           <textarea class="form-control"></textarea>
                                       </div>
                                   </div>
-
 								   <div class="form-group bottom_border">
 								      <label class="col-sm-3 control-label">*상세경력</label>
                                       <div class="col-sm-9">
-                                          <textarea class="form-control ckeditor" rows="6"></textarea>
+                                          <textarea class="wysihtml5 form-control" rows="10"></textarea>
                                       </div>
                                   </div>
-
-
-
-
-
-								  <!-------------------------------------------------------------------------------->
-
-
-
 								  <div class="form-group bottom_border">
-                                      <label class="col-sm-3 control-label">재직기업</label>
-                                      <div class="col-sm-7">
+								      <label class="col-sm-3 control-label">경력기술서</label>
+									  <div class="col-sm-9">
                                           <textarea class="form-control"></textarea>
                                       </div>
-									  <div class="col-sm-2">
-                                          <div class="col-md-2">
-											 <input  type="checkbox" style="width: 20px" class="checkbox form-control" id="agree" name="agree" checked/>
-										 </div>
-										 <div class="col-md-10">
-											 <label class="control-label">공개</label>
-										 </div>
-                                      </div>
                                   </div>
-
 								  <div class="form-group bottom_border">
-                                      <label class="col-sm-3 control-label">자기소개</label>
-                                      <div class="col-sm-7">
+								      <label class="col-sm-3 control-label">경력사항외</label>
+									  <div class="col-sm-9">
                                           <textarea class="form-control"></textarea>
                                       </div>
-									  <div class="col-sm-2">
-                                          <div class="col-md-2">
-											 <input  type="checkbox" style="width: 20px" class="checkbox form-control" id="agree" name="agree" checked/>
-										 </div>
-										 <div class="col-md-10">
-											 <label class="control-label">공개</label>
-										 </div>
-                                      </div>
                                   </div>
-								  <div class="col-sm-10">
-									  <div class="pull-right">
-										  <a class="btn btn-info" data-toggle="modal" href="#enroll"> 등록</a>
-										  <button class="btn btn-default" type="button">닫기</button>
-									  </div>
-								  </div>
-								</div>
-								 </div>
-								<!-- MODAL Start -->
-									<div class="modal fade modal-dialog-center " id="enroll" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-									  <div class="modal-dialog ">
-										  <div class="modal-content-wrap">
-											  <div class="modal-content">
-												  <div class="modal-header">
-													  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-													  <h4 class="modal-title">프로필 등록 확인</h4>
+								  <div class="form-group bottom_border">
+								      <label class="col-sm-3 control-label">이력서</label>
+									  <div class="col-sm-9">
+                                          <form id="fileupload" action="//jquery-file-upload.appspot.com/" method="POST" enctype="multipart/form-data">
+											  <!-- Redirect browsers with JavaScript disabled to the origin page -->
+											  <noscript>
+												  <input type="hidden" name="redirect" value="http://blueimp.github.io/jQuery-File-Upload/">
+											  </noscript>
+											  <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+											  <div class="row fileupload-buttonbar">
+												  <div class="col-lg-7">
+													  <!-- The fileinput-button span is used to style the file input field as button -->
+													<span class="btn btn-success fileinput-button">
+													<i class="glyphicon glyphicon-plus"></i>
+													<span>Add files...</span>
+													<input type="file" name="files[]" multiple>
+													</span>
+													  <button type="submit" class="btn btn-primary start">
+														  <i class="glyphicon glyphicon-upload"></i>
+														  <span>Start upload</span>
+													  </button>
+													  <button type="reset" class="btn btn-warning cancel">
+														  <i class="glyphicon glyphicon-ban-circle"></i>
+														  <span>Cancel upload</span>
+													  </button>
+													  <button type="button" class="btn btn-danger delete">
+														  <i class="glyphicon glyphicon-trash"></i>
+														  <span>Delete</span>
+													  </button>
+													  <input type="checkbox" class="toggle">
+													  <!-- The global file processing state -->
+													  <span class="fileupload-process"></span>
 												  </div>
-												  <div class="modal-body">내 프로필을 등록하시겠습니까?.</div>
-												  <div class="modal-footer">
-													  <button data-dismiss="modal" class="btn btn-default" type="button">취소</button>
-													  <button class="btn btn-warning" type="button"> 확인</button>
+												  <!-- The global progress state -->
+												  <div class="col-lg-5 fileupload-progress fade">
+													  <!-- The global progress bar -->
+													  <div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+														  <div class="progress-bar progress-bar-success" style="width:0%;">
+														  </div>
+													  </div>
+													  <!-- The extended global progress state -->
+													  <div class="progress-extended">
+														  &nbsp;
+													  </div>
 												  </div>
 											  </div>
+											  <!-- The table listing the files available for upload/download -->
+											  <table role="presentation" class="table table-striped">
+												  <tbody class="files">
+												  </tbody>
+											  </table>
+										  </form>
+										  <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-filter=":even">
+											  <div class="slides">
+											  </div>
+											  <h3 class="title"></h3>
+											  <a class="prev">‹</a>
+											  <a class="next">›</a>
+											  <a class="close">×</a>
+											  <a class="play-pause"></a>
+											  <ol class="indicator">
+											  </ol>
 										  </div>
-									  </div>
-								  </div>
-								<!-- Modal Ends -->
-                              </form>
-                          </div>
-                      </section>
-				</div>
+                                      </div>
+                                  </div>
+
+								</div>
+							</div>
+						</div>
+					  </form>
+					 </div>
+				  </section>
 			 </div>
 		</div>
 	  <!-- page end-->
@@ -244,7 +272,7 @@
 	 
       <!--footer end-->
   </section>
-    <!--this page plugins-->
+  <!--this page plugins-->
   <script src="js/jquery.js"></script>
   <!--custom tagsinput-->
   <script type="text/javascript" src="js/ckeditor.js"></script>
@@ -256,6 +284,11 @@
   <script type="text/javascript" src="js/bootstrap-inputmask.min.js"></script>
   <!-- Script in pages -->
   <script src="js/bootstrap-switch.js"></script>
+
+  <script type="text/javascript" src="js/wysihtml5-0.3.0.js"></script>
+  <script type="text/javascript" src="js/bootstrap-wysihtml5.js"></script>
+  <script src="js/advanced-form-components.js"></script>
+
   <script type="text/javascript">
       $(document).ready(function () {
           // Resets to the regular style
@@ -269,6 +302,117 @@
           $('#change-color-switch').bootstrapSwitch('setOnClass', 'success');
           $('#change-color-switch').bootstrapSwitch('setOffClass', 'danger');
       });
+  </script>
+
+  <!--Multiuple File Uploader-->
+  <!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
+  <script src="js/jquery.ui.widget.js"></script>
+  <!-- The Templates plugin is included to render the upload/download listings -->
+  <script src="//blueimp.github.io/JavaScript-Templates/js/tmpl.min.js"></script>
+  <!-- The Load Image plugin is included for the preview images and image resizing functionality -->
+  <script src="//blueimp.github.io/JavaScript-Load-Image/js/load-image.min.js"></script>
+  <!-- The Canvas to Blob plugin is included for image resizing functionality -->
+  <script src="//blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
+
+  <!-- blueimp Gallery script -->
+  <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+  <!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+  <script src="js/jquery.iframe-transport.js"></script>
+  <!-- The basic File Upload plugin -->
+  <script src="js/jquery.fileupload.js"></script>
+  <!-- The File Upload processing plugin -->
+  <script src="js/jquery.fileupload-process.js"></script>
+  <!-- The File Upload image preview & resize plugin -->
+  <script src="js/jquery.fileupload-image.js"></script>
+  <!-- The File Upload audio preview plugin -->
+  <script src="js/jquery.fileupload-audio.js"></script>
+  <!-- The File Upload video preview plugin -->
+  <script src="js/jquery.fileupload-video.js"></script>
+  <!-- The File Upload validation plugin -->
+  <script src="js/jquery.fileupload-validate.js"></script>
+  <!-- The File Upload user interface plugin -->
+  <script src="js/jquery.fileupload-ui.js"></script>
+  <!-- The main application script -->
+  <script src="js/main.js"></script>
+  <!-- The XDomainRequest Transport is included for cross-domain file deletion for IE 8 and IE 9 -->
+  <!--[if (gte IE 8)&(lt IE 10)]>
+  <script src="assets/file-uploader/js/cors/jquery.xdr-transport.js"></script>
+  <![endif]-->
+
+  <!-- The template to display files available for upload -->
+  <script id="template-upload" type="text/x-tmpl">
+      {% for (var i=0, file; file=o.files[i]; i++) { %}
+      <tr class="template-upload fade">
+          <td>
+              <span class="preview"></span>
+          </td>
+          <td>
+              <p class="name">{%=file.name%}</p>
+              <strong class="error text-danger"></strong>
+          </td>
+          <td>
+              <p class="size">Processing...</p>
+              <div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="progress-bar progress-bar-success" style="width:0%;"></div></div>
+          </td>
+          <td>
+              {% if (!i && !o.options.autoUpload) { %}
+              <button class="btn btn-primary start" disabled>
+                  <i class="glyphicon glyphicon-upload"></i>
+                  <span>Start</span>
+              </button>
+              {% } %}
+              {% if (!i) { %}
+              <button class="btn btn-warning cancel">
+                  <i class="glyphicon glyphicon-ban-circle"></i>
+                  <span>Cancel</span>
+              </button>
+              {% } %}
+          </td>
+      </tr>
+      {% } %}
+  </script>
+  <!-- The template to display files available for download -->
+  <script id="template-download" type="text/x-tmpl">
+      {% for (var i=0, file; file=o.files[i]; i++) { %}
+      <tr class="template-download fade">
+          <td>
+            <span class="preview">
+                {% if (file.thumbnail_url) { %}
+                    <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" data-gallery><img src="{%=file.thumbnail_url%}"></a>
+                {% } %}
+            </span>
+          </td>
+          <td>
+              <p class="name">
+                  {% if (file.url) { %}
+                  <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnail_url?'data-gallery':''%}>{%=file.name%}</a>
+                  {% } else { %}
+                  <span>{%=file.name%}</span>
+                  {% } %}
+              </p>
+              {% if (file.error) { %}
+              <div><span class="label label-danger">Error</span> {%=file.error%}</div>
+              {% } %}
+          </td>
+          <td>
+              <span class="size">{%=o.formatFileSize(file.size)%}</span>
+          </td>
+          <td>
+              {% if (file.deleteUrl) { %}
+              <button class="btn btn-danger delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":true}'{% } %}>
+              <i class="glyphicon glyphicon-trash"></i>
+              <span>Delete</span>
+              </button>
+              <input type="checkbox" name="delete" value="1" class="toggle">
+              {% } else { %}
+              <button class="btn btn-warning cancel">
+                  <i class="glyphicon glyphicon-ban-circle"></i>
+                  <span>Cancel</span>
+              </button>
+              {% } %}
+          </td>
+      </tr>
+      {% } %}
   </script>
   </body>
 </html>
