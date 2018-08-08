@@ -48,12 +48,12 @@
 									  <div class="form-group bottom_border">
 										  <label class="col-sm-3 control-label">*학력</label>
 										  <div class="col-sm-4 control-label">
-											  <select class="form-control m-bot15" style="width:90px;">
+											  <select class="form-control m-bot15">
 													<option value="학력구분" selected>학력구분</option>
 											  </select>
 										  </div>
 										  <div class="col-sm-4 control-label">
-											  <select class="form-control m-bot15" style="width:90px;">
+											  <select class="form-control m-bot15">
 													<option value="졸업" selected>졸업</option>
 											  </select>
 										  </div>
@@ -79,7 +79,7 @@
 									  <div class="form-group bottom_border">
 										  <label class="col-sm-3 control-label">소재지</label>
 										  <div class="col-sm-3 control-label">
-											  <select class="form-control m-bot15" style="width:70px;">
+											  <select class="form-control m-bot15">
 													<option value="국내" selected>국내</option>
 											  </select>
 										  </div>
@@ -116,179 +116,225 @@
 									  </div>
 									</div>
 								</div>
+								<div class="row">
+									 <div class="col-sm-12">
+									  <div class="form-group bottom_border text-center">
+										  <button class="btn btn-info" type="submit">추가</button>
+									  </div>
+									 </div>
+								</div>
+								
+								<div class="row">
+									 <div class="col-sm-12">
+										<div class="form-group bottom_border">
+											<div class="adv-table editable-table ">
+											  <div class="clearfix">
+												  <div class="btn-group text-center">
+													  <button id="editable-sample_new" class="btn green">
+														  Add New <i class="fa fa-plus"></i>
+													  </button>
+												  </div>
+												  <!--<div class="btn-group">
+													  <button class="btn dropdown-toggle" data-toggle="dropdown">Tools <i class="fa fa-angle-down"></i>
+													  </button>
+													  <ul class="dropdown-menu pull-right">
+														  <li><a href="#">Print</a></li>
+														  <li><a href="#">Save as PDF</a></li>
+														  <li><a href="#">Export to Excel</a></li>
+													  </ul>
+												  </div>-->
+											  </div>
+											  <div class="space15"></div>
+
+											  <div class="table-responsive">
+
+											  <table class="table table-striped table-hover table-bordered" id="editable-sample">
+												  <thead>
+												  <tr>
+													  <th>재학기간</th>
+													  <th>소재지</th>
+													  <th>지역</th>
+													  <th>학력구분</th>
+													  <th>학교명</th>
+													  <th>전공명</th>
+													  <th>졸업여부</th>
+													  <th>최종학력체크</th>
+													  <th>Action</th>
+												  </tr>
+												  </thead>
+												  <tbody>
+												  <tr class="text-center">
+													  <td>
+													  	<div class="form-group bottom_border">
+															<label>1996</label>
+															<label>~</label>
+															<label>2001</label>
+														</div>
+													  </td>
+													  <td>
+														<div class="form-group bottom_border">
+														  <label>국내</label>
+													    </div>
+													  </td>
+													  <td>
+														<div class="form-group bottom_border">
+														   <label>서울</label>
+													    </div>
+													  </td>
+													  <td>
+														<div class="form-group bottom_border">
+														  <label>고등학교</label>
+													    </div>
+													  </td>
+													  <td>
+														<div class="form-group bottom_border">
+														  <label>문영여자고등학교</label>
+													    </div>
+													  </td>
+													  <td>
+														<div class="form-group bottom_border">
+														  <label></label>
+														</div>
+													  </td>
+													  <td>
+														<div class="form-group bottom_border">
+														  <label></label>
+														</div>
+													  </td>
+													  <td>
+														 <div class="form-group bottom_border">
+														   <input type="radio" class="form-control">
+														</div>
+													  </td>
+													  <td>
+														<div class="form-group bottom_border">
+															  <button class="btn btn-info" type="submit">저장</button>
+															  <button class="btn btn-info" type="submit">삭제</button>
+														</div>
+													  </td>
+												  </tr>
+												  </tbody>
+											  </table>
+											 </div>
+										  </div>
+									 </div>
+								</div>
+							  </div>
 							</div>
+							<header class="form-group bottom_border" style="font-size:1.5em;padding:15px;"> 5. 기타 </header>
+							  <div class="col-sm-12">
+							   <div class="row">
+								   <div class="col-sm-4">
+									  <div class="form-group bottom_border">
+										  <label class="col-sm-3 control-label">외국어</label>
+										  <div class="col-sm-4 control-label">
+											  <div class="input-group m-bot15">
+												  <input type="text" class="form-control">
+												  <span class="input-group-btn">
+													<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
+												  </span>
+											  </div>
+										  </div>
+										  <div class="col-sm-3 control-label">
+											  <select class="form-control m-bot15">
+													<option value="수준선택" selected>수준선택</option>
+											  </select>
+										  </div>
+										  <div class="col-sm-2 control-label">
+											  <button class="btn btn-info" type="submit">추가</button>
+										  </div>
+									  </div>
+									</div>
+									<div class="col-sm-8">
+									  <div class="form-group bottom_border">
+										  <div class="col-sm-12 control-label">
+											  <input type="text" class="form-control">
+										  </div>
+									  </div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-4">
+									  <div class="form-group bottom_border">
+										  <label class="col-sm-3 control-label">자격증</label>
+										  <div class="col-sm-7 control-label">
+											 <div class="input-group m-bot15">
+												  <input type="text" class="form-control">
+												  <span class="input-group-btn">
+													<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
+												  </span>
+											  </div>
+										  </div>
+										  <div class="col-sm-2 control-label">
+											  <button class="btn btn-info" type="submit">추가</button>
+										  </div>
+									  </div>
+									</div>
+									<div class="col-sm-11" style="margin-left:106px;">
+										<input type="text" id="tagsinput" class="tagsinput" value="해외경력    , 중국어 실력,">
+									</div>
+								</div>
+							</div>
+							<header class="form-group bottom_border" style="font-size:1.5em;padding:15px;"> 6. 희망근무조건 </header>
+							  <div class="col-sm-12">
+							   <div class="row">
+								   <div class="col-sm-6">
+									  <div class="form-group bottom_border">
+										  <label class="col-sm-2 control-label">근무지</label>
+										  <div class="col-sm-4 control-label">
+											  <select class="form-control m-bot15">
+													<option value="무관" selected>무관</option>
+											  </select>
+										  </div>
+										  <div class="col-sm-3 control-label">
+											  <input type="text" class="form-control">
+										  </div>
+										  <div class="col-sm-3 control-label">
+											  <input type="text" class="form-control">
+										  </div>
+									  </div>
+									</div>
+									<div class="col-sm-6">
+									   <div class="form-group bottom_border">
+										  <label class="col-sm-3 control-label">희망연봉/현재연봉</label>
+										  <div class="col-sm-3 control-label">
+											  <input type="text" class="control-label form-control" value="1000">
+										  </div>
+										  <label class="col-sm-1 control-label">/</label>
+										  <div class="col-sm-3 control-label">
+											  <input type="text" class="control-label form-control" value="1000">
+										  </div>
+										  <label class="col-sm-1 control-label">만원</label>
+									  </div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+									  <div class="form-group bottom_border">
+										  <label class="col-sm-1 control-label">지원분야</label>
+										  <div class="col-sm-11 control-label">
+											 <input type="text" class="form-control">
+										  </div>
+									  </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 text-center" style="padding-top:20px;">
+							  <div class="row">
+								<div class="form-group bottom_border">
+									<button class="btn btn-info">등록</button>
+									<button class="btn btn-default">인재 목록</button>
+								</div>
+							   </div>
+							</div>
+
 						  </form>
 						</div>
 					 </section>
 					</div>
 				 </div>
 
-			  <!-- page start-->
-              <div class="row">
-                  <div class="col-lg-12">
-                      <section class="panel">
-                          <header class="">
-							<div class="col-lg-12">
-								<div class="row panel-heading">
-									<div class="col-lg-4 ">
-										<span>검색결과:2,789건</span>
-									</div>
-									<div class="col-lg-8">
-										<span class="pull-right">
-											 <label class="col-sm-4 control-label">정렬항목</label>
-											  <div class="col-sm-4 control-label">
-												  <select class="js-example-basic-single" style="width:100px;">
-														<option value="등록일" selected>등록일</option>
-												  </select>
-											  </div>
-											  <div class="col-sm-4 control-label">
-												  <select class="js-example-basic-single" style="width:100px;">
-														<option value="내림차순" selected>내림차순</option>
-												  </select>
-											  </div>
-										</span>
-									</div>
-								</div>
-							</div>
-                          </header>
-                          <div class="panel-body">
-                              <div class="adv-table">
-                                  <table  class="display table table-bordered table-striped" id="dynamic-table">
-                                      <thead>
-                                      <tr>
-                                          <th>No</th>
-                                          <th>고객사</th>
-                                          <th>채용공고명 </th>
-                                          <th>담당자</th>
-										  <th>진행상태</th>
-
-										  <th>추천수</th>
-                                          <th>등록일 </th>
-                                          <th>접수마감일</th>
-										  <th>파트너</th>
-                                      </tr>
-                                      </thead>
-                                      <tbody>
-                                      <tr>
-                                          <td>1</td>
-                                          <td>삼성SDS</td>
-                                          <td>Agile 전문가</td>
-                                          <td>강용오</td>
-										  <td>진행중</td>
-										  <td>5</td>
-                                          <td>2018-07-16</td>
-                                          <td>2018-07-31</td>
-										  <td>공개</td>
-                                      </tr>
-                                      <tr>
-                                          <td>2</td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-                                      </tr>
-									  <tr>
-                                          <td>3</td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-                                      </tr>
-									  <tr>
-                                          <td>4</td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-                                      </tr>
-
-
-									  <tr>
-                                          <td>5</td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-                                      </tr>
-									  <tr>
-                                          <td>6</td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-                                      </tr>
-									  <tr>
-                                          <td>7</td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-                                      </tr>
-									  <tr>
-                                          <td>8</td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-                                      </tr>
-									  <tr>
-                                          <td>9</td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-                                      </tr>
-									  <tr>
-                                          <td>10</td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td></td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-                                      </tr>
-                                      </tbody>
-                                  </table>
-                              </div>
-                          </div>
-                      </section>
-                  </div>
-              </div>
-              <!-- page end-->
+			  
 
           <!-- page end-->
           </section>
@@ -298,18 +344,20 @@
      <?php include("footer.php");?>
       <!--footer end-->
   </section>
+  <script src="js/form-component.js"></script>
 	<!--custom checkbox & radio-->
-    <!--this page plugins-->
-    <script src="js/jquery.js"></script>
-    <!--this page plugins-->
-
   <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
   <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
   <!--select2-->
-  <script src="js/advanced-form-components.js"></script>
-
-  <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+  <script src="js/jquery.tagsinput.js"></script>
+  <script src="js/common-scripts.js"></script>
+  <script type="text/javascript" src="js/jquery.dataTables.js"></script>
   <script type="text/javascript" src="js/DT_bootstrap.js"></script>
-  <script src="js/dynamic_table_init.js"></script>
-  </body>
+  <script src="js/advanced-form-components.js"></script>
+  <script src="js/editable-table.js"></script>
+  <script>
+	  jQuery(document).ready(function() {
+		  EditableTable.init();
+	  });
+  </script>
 </html>

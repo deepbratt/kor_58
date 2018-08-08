@@ -11,12 +11,10 @@
     <title>Slide 25</title>
 	<?php include("metalinks.php");?>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-
 	<link href="css/bootstrap-reset.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
-
     <link rel="stylesheet" type="text/css" href="css/bootstrap-fileupload.css" />
     <!--bootstrap switcher-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />
