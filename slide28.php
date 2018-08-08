@@ -11,6 +11,10 @@
     <title>Slide 28</title>
 	<?php include("metalinks.php");?>
     <!--bootstrap switcher-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />
     <link rel="stylesheet" type="text/css" href="css/datepicker.css" />
     <link rel="stylesheet" type="text/css" href="css/datetimepicker.css" />
@@ -47,7 +51,6 @@
 						    <h3 class="form-group">
 								 인재 상세
 							</h3>
-							<form class="form-horizontal tasi-form" method="POST">
 							  <div class="col-sm-12">
 							  	<div class="row">
 									<div class="col-sm-6">
@@ -64,8 +67,7 @@
 									  </div>
 									</div>
 								</div>
-							   </div>
-							</form>
+							  </div>
 						 </div>
 					
                           <div class="panel-body">
@@ -161,33 +163,13 @@
 						  <div class="modal-content">
 							  <div class="modal-header">
 								  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								  <h4 class="modal-title">관심후보자등록</h4>
+								  <h4 class="modal-title">삭제요청</h4>
 							  </div>
 							  <div class="modal-body">
+							  	<label class="col-sm-12 control-label">삭제요청 사유</label>
 								<div class="col-sm-12">
 									<div class="row">
-
-										<div class="col-sm-3">
-											<span class="fa fa-folder" style="font-size:3.3em;"></span>
-											<span>마케팅</span>
-										</div>
-										<div class="col-sm-3">
-											<span class="fa fa-folder" style="font-size:3.3em;"></span>
-											<span>영업</span>
-										</div>
-										<div class="col-sm-3">
-											<span class="fa fa-folder" style="font-size:3.3em;"></span>
-											<span>IT</span>
-										</div>
-										<div class="col-sm-3">
-											<span class="fa fa-plus-square-o" style="font-size:3.3em;"></span>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-3">
-											<span class="fa fa-folder" style="font-size:3.3em;"></span>
-											<input type="text" class="form-control">
-										</div>
+										<input type="text" class="form-control">
 									</div>
 								</div>
 							  </div>
@@ -210,15 +192,8 @@
      <?php include("footer.php");?>
       <!--footer end-->
   </section>
-	<!--custom checkbox & radio-->
-    <!--this page plugins-->
-    <script src="js/jquery.js"></script>
-    <!--this page plugins-->
-
-  <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
-  <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
-  <!--select2-->
-  <script src="js/advanced-form-components.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/bootstrap-fileupload.js"></script>
   <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
   <script type="text/javascript" src="js/DT_bootstrap.js"></script>
