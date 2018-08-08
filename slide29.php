@@ -37,24 +37,30 @@
           <section class="wrapper">
           <!-- page start-->
 			 <div class="row">
-				<div class="col-md-12">
+				<div class="col-md-10" style="margin-left:114px;">
 					<section class="panel">
-					  <div class="row">
-						<div class="col-md-12 panel-heading">
-							<label class="col-md-6">인재 추천</label>
+
+					<div class="col-md-12">
+					  <div class="panel-heading">
+						<div class="row">
+							<div class="col-md-6">
+								<label>인재 추천</label>
+							</div>
 							<div class="col-md-6 ">
-							   <button type="button" class="btn btn-info pull-right">&times;</button>
-							</div> 
+								<button class="btn btn-info pull-right">&times;</button>
+							</div>
 						</div>
-					   </div>
+					  </div>
+					</div>
+					 
 					  <div class="panel-body">
 						<form class="form-horizontal tasi-form" method="POST">
-						  <div class="col-sm-10">
+						  <div class="col-sm-12">
 						   <div class="row">
-							<div class="col-sm-6">
+							<div class="col-sm-12">
 							  <div class="form-group bottom_border">
 								  <label class="col-sm-3 control-label">추천자</label>
-								  <div class="col-sm-6 control-label">
+								  <div class="col-sm-4 control-label">
 									  <div class="input-group m-bot15">
 										  <input type="text" class="form-control" placeholder="강용오">
 										  <span class="input-group-btn">
@@ -64,38 +70,51 @@
 								  </div>
 							  </div>
 							  <div class="form-group bottom_border">
-								  <label class="col-sm-3 control-label">아이디</label>
-								  <label  class="col-sm-7 control-label">andrew.kang@kycg.co.kr</label>
+								  <label class="col-sm-3 control-label">이름</label>
+								  <label class="col-sm-7 control-label">김태령</label>
 							  </div>
-
 							  <div class="form-group bottom_border">
-								  <label class="col-sm-3 control-label">기존비번</label>
-								  <div class="col-sm-5">
-									  <input type="password" class="form-control" placeholder="*************">
+								  <label class="col-sm-3 control-label">*채용공고</label>
+								  <label class="col-sm-1 control-label">고객사</label>
+								  <div class="col-sm-8 control-label">
+									  <div class="input-group m-bot15">
+										  <input type="text" class="form-control" placeholder="전체">
+										  <span class="input-group-btn">
+											<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
+										  </span>
+									  </div>
 								  </div>
 							  </div>
-
 							  <div class="form-group bottom_border">
-								  <label class="col-sm-3 control-label">변경비번</label>
-								  <div class="col-sm-5">
-									  <input type="password" class="form-control" placeholder="*************">
+								  <label class="col-sm-3 control-label"></label>
+								  <label class="col-sm-1 control-label">채용공고</label>
+								  <div class="col-sm-8">
+									  <select class="form-control m-bot15">
+											<option value="전체" selected>전체</option>
+									  </select>
 								  </div>
+							  </div>
+							   <div class="form-group bottom_border">
+								  <label class="col-sm-3 control-label">*진행상태</label>
 								  <div class="col-sm-4">
-									  <span>*숫자, 영문 포함 10자 이상</span>
+									 <select class="form-control m-bot15">
+											<option value="컨택중" selected>컨택중</option>
+									  </select>
 								  </div>
 							  </div>
 
 							   <div class="form-group bottom_border">
-								  <label class="col-sm-3 control-label">비번확인</label>
-								  <div class="col-sm-5">
-									  <input type="text" class="form-control" placeholder="*************">
+								  <label class="col-sm-3 control-label">*추천사유</label>
+								  <div class="col-sm-9">
+									 <textarea class="form-control"></textarea>
 								  </div>
 							  </div>
+
 							</div>
 						  </div>
 						</div>
 						<h3 class="form-group bottom_border"></h3>
-						 <div class="col-md-12 text-center">
+						 <div class="col-md-12 col-md-offset-10">
 							<div class="form-group">
 								<button type="button" class="btn btn-info">수정</button>
 								<button type="button" class="btn btn-default">취소</button>
