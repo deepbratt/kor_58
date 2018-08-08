@@ -86,7 +86,7 @@
                                       </tr>
                                       </thead>
                                   </table>
-								  <div class="col-md-12">
+								  <div class="col-md-12 pad0">
 										<div class="row pad0">
 											<div class="col-md-6 pad0">
 												<div class="col-md-4 col_label">고객사</div>
