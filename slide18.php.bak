@@ -74,10 +74,31 @@
 												  </div>
 												 </div>
 
-												
-												
+												<div class="col-md-6" style="padding:10px;">
+												  <div class="form-group">
+													  <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">결제일</label>
+													  <div class="col-lg-10">
+														  <input type="text" class="form-control" id="inputPassword1" placeholder="입사 후 TT로 2주 이내">
+													  </div>
+												  </div>
+												 </div>
+												<div class="col-md-6" style="padding:10px;">
+												  <div class="form-group">
+													  <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">보증기간</label>
+													  <div class="col-lg-10">
+														  <input type="text" class="form-control" id="inputPassword1" placeholder="6개월">
+													  </div>
+												  </div>
+												 </div>
 
-												 
+												 <div class="col-md-6" style="padding:10px;">
+												  <div class="form-group">
+													  <label for="inputPassword1" class="col-lg-2 col-sm-2 control-label">요율</label>
+													  <div class="col-lg-10">
+														  <input type="text" class="form-control" id="inputPassword1" placeholder="20%">
+													  </div>
+												  </div>
+												 </div>
 
 												 <div class="col-md-6" style="padding:10px;">
 												  <div class="form-group">
