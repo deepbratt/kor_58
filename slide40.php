@@ -17,8 +17,9 @@
 	<link href="css/demo_page.css" rel="stylesheet" />
     <link href="css/demo_table.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/DT_bootstrap.css" />
+		<link href="css/yamm.css" rel="stylesheet">
     <!--  summernote -->
-	<link href="css/yamm.css" rel="stylesheet">
+	
 
 	    <!--  summernote -->
 
@@ -140,7 +141,9 @@
                       <section class="panel">
                           <header class="panel-heading">
                               공고진행내역
-							  <span class="switch-left">ON</span>
+							  <div class="make-switch pull-right">
+								<input type="checkbox" value="" checked>
+							</div>
                           </header>
                           <div class="panel-body">
                               <div class="adv-table">
@@ -182,11 +185,100 @@
                   </div>
               </div>
               <!-- page end-->
+			      <div class="row">
+                  <div class="col-lg-12">
+                      <section class="panel">
+                          <header class="panel-heading" style="">
+                              고객사 컨택내역
+							  <!--<span class="switch-right">ON</span>-->
+							   <div class="pull-right" style="padding-bottom:10px !important;">
+									<a class="btn btn-info" data-toggle="modal" href="#enroll">컨택내용등록</a>
+									
+								</div>
+                          </header>
+                          <div class="panel-body" >
+                              <div class="adv-table">
+                                  <table  class="display table table-bordered table-striped" id="dynamic-table">
+                                      <thead>
+                                      <tr>
+                                          <th>내용</th>
+                                          <th>담당자</th>
+                                          <th>등록일</th>
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+							
+                                      <tr>
+                                          <td>이력서 정리해서 보내 주기로 함</td>
+                                          <td>강용오</td>
+                                          <td>2018-07-10</td>
+                                      </tr>
+										<tr>
+                                          <td>PMD 연봉 관련 문의</td>
+                                          <td>강용오</td>
+                                          <td>2018-06-15</td>
+                                      </tr>
+							
+                                      </tbody>
+                                  </table>
+                              </div>
+							<div class="pull-right" style="padding-bottom:10px !important;">
+								<a class="btn btn-info" >인쇄</a>	
+								<a class="btn btn-info" data-toggle="modal" href="#something">담당자이관요청</a>
+								<a class="btn btn-info">수정</a>	
+								<a class="btn btn-info">고객사 목록</a>	
+							</div>
+                          </div>
+                      </section>
+                  </div>
+              </div>
 
           <!-- page end-->
           </section>
       </section>
       <!--main content end-->
+
+	<!-- MODAL Start -->
+	<div class="modal fade modal-dialog-center " id="enroll" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog ">
+		  <div class="modal-content-wrap">
+			  <div class="modal-content">
+				  <div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					  <h4 class="modal-title">컨택내용등록</h4>
+				  </div>
+				  <div class="modal-body"><textarea class="form-control"></textarea></div>
+				  <div class="modal-footer">
+					  <button data-dismiss="modal" class="btn btn-default" type="button">등록</button>
+					  <button class="btn btn-warning" type="button">닫기</button>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+  </div>
+<!-- Modal Ends -->
+	<!-- MODAL Start -->
+	<div class="modal fade modal-dialog-center " id="something" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog ">
+		  <div class="modal-content-wrap">
+			  <div class="modal-content">
+				  <div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					  <h4 class="modal-title">컨택내용등록</h4>
+				  </div>
+				  <div class="modal-body">
+				  <select class="form-control" tabindex="-1" aria-hidden="true">
+                     <option value="AL">새 담당자명</option>
+                   </select></div>
+				  <div class="modal-footer">
+					  <button data-dismiss="modal" class="btn btn-default" type="button">등록</button>
+					  <button class="btn btn-warning" type="button">닫기</button>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+  </div>
+<!-- Modal Ends -->
       <!--footer start-->
      <?php include("footer.php");?>
       <!--footer end-->
@@ -199,10 +291,16 @@
   <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
   <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
   <!--select2-->
-  <script src="js/advanced-form-components.js"></script>
+  <script src="js/form-components.js"></script>
 
   <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
   <script type="text/javascript" src="js/DT_bootstrap.js"></script>
   <script src="js/dynamic_table_init.js"></script>
+
+  <!--bootstrap swither-->
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-inputmask.min.js"></script>
+  <!-- Script in pages -->
+  <script src="js/bootstrap-switch.js"></script>
   </body>
 </html>
