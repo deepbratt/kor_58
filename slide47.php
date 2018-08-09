@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <meta name="keyword" content="">
 
-    <title>Slide 46</title>
+    <title>Slide 47</title>
 	<?php include("metalinks.php");?>
     <link href="css/table-responsive.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-fileupload.css" />
@@ -43,7 +43,7 @@
 				<div class="col-md-12">
 					<section class="panel">
                           <header class="panel-heading">
-                            컽설턴트  > 업무 히스토리
+                            컽설턴트  > 포인트 관리
                           </header>
                       </section>
 				</div>
@@ -54,13 +54,13 @@
                   <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
-                               업무 히스토리
+                               포인트 관리
                           </header>
 						        <div class="panel-body">
 								<div class="col-md-6">
 									<div class="col-md-12">
 									  <div class="form-group">
-										  <label for="inputPassword1" class="col-md-2 col-sm-2 control-label">로그종류</label>
+										  <label for="inputPassword1" class="col-md-2 col-sm-2 control-label">포인트 관리</label>
 										  <div class="col-md-10">
 											  <select class="form-control" tabindex="-1" aria-hidden="true">
 												 <option value="AL">전체</option>
@@ -105,19 +105,6 @@
 										  </div>
 									  </div>
 								  </div>
-								<div class="col-md-5">
-								<div class="col-md-12">
-								  <div class="form-group">
-									  <label for="inputPassword1" class="col-md-2 col-sm-2 control-label">상세내용</label>
-									  <div class="col-md-10">
-										  <input type="text" class="form-control" id="inputPassword1" placeholder="키워드">
-									  </div>
-								  </div>
-								 </div>
-                              </div>
-							 <div class="col-md-1"style="padding:0 !important;">
-							 	<a class="btn btn-info" data-toggle="modal" href="#enroll" >검색</a>
-							 </div>
                           </div>
                       </section>
                   </div>
@@ -137,46 +124,46 @@
                                   <table class="table table-bordered table-striped table-condensed cf">
                                       <thead class="cf">
                                       <tr>
-                                          <th>로그종류</th>
-                                          <th>로그시간</th>
+                                          <th>날짜</th>
+                                          <th>포인트종류</th>
                                           <th class="numeric">컨설턴트명</th>
                                           <th class="numeric">직원계정</th>
-										  <th class="numeric">상세정보</th>
+										  <th class="numeric">포인트 수</th>
 										  
                                        
                                       </tr>
                                       </thead>
                                       <tbody>
                                       <tr>
-                                          <td data-title="Code">로그인</td>
-                                          <td data-title="Company">2018-07-13  11:24:11 AM</td>
+                                          <td data-title="Code">18-07-24</td>
+                                          <td data-title="Company">내 프로필 등록</td>
                                           <td data-title="Price">강용오</td>
                                           <td data-title="Change">Andrew</td>
-										  <td data-title="Change">211.178.126.92] 로그인</td>
+										  <td data-title="Change">10</td>
                                       </tr>
 
 									   <tr>
-                                          <td data-title="Code">인재-인재상세</td>
-                                          <td data-title="Company">2018-07-10  14:36:11 AM</td>
+                                          <td data-title="Code">18-07-20</td>
+                                          <td data-title="Company">채용공고등록</td>
                                           <td data-title="Price">강용오</td>
                                           <td data-title="Change">Andrew</td>
-										  <td data-title="Change">211.178.126.92] 후보자명: 김태령(1977:여)</td>
+										  <td data-title="Change">10</td>
 										  
                                       </tr>
 									   <tr>
-                                          <td data-title="Code">고객사 목록</td>
-                                          <td data-title="Company">2018-07-10  13:01:11 AM</td>
+                                          <td data-title="Code">18-07-18</td>
+                                          <td data-title="Company">인재 컨택내용 등록</td>
                                           <td data-title="Price">강용오</td>
                                           <td data-title="Change">Andrew</td>
-										  <td data-title="Change">211.178.126.92] 삼성SDS</td>
+										  <td data-title="Change">5</td>
 										  
                                       </tr>
 									   <tr>
-                                          <td data-title="Code">로그인</td>
-                                          <td data-title="Company">2018-07-10  11:24:11 AM</td>
+                                          <td data-title="Code">18-07-05</td>
+                                          <td data-title="Company">고객사 담당자 기타 등록</td>
                                           <td data-title="Price">강용오</td>
                                           <td data-title="Change">Andrew</td>
-										  <td data-title="Change">211.178.126.92] 로그인</td>
+										  <td data-title="Change">5</td>
 										  
                                       </tr>
                                 
