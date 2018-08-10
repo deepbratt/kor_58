@@ -66,47 +66,35 @@
                               <div class="adv-table">
                              
 								  <div class="col-md-12">
-										
-										<div class="row pad0 mar5">
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">후보자</div>
-												<div class="col-md-8 col_contnt">김태령</div>
-											</div>
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">출생년도</div>
-												<div class="col-md-8 col_contnt">1977</div>
-											</div>
-										</div>
-										
 										<div class="row pad0 mar5">
 											<div class="col-md-12 pad0">
-												<div class="col-md-2 col_label">채용제목</div>
-												<div class="col-md-10 col_contnt">Agile 전문가 채용</div>
+												<div class="col-md-2 col_label">등록일</div>
+												<div class="col-md-10 col_contnt">2018-07-01</div>
 											</div>
 										</div>
 
 
 										<div class="row pad0 mar5">
 											<div class="col-md-12 pad0">
-												<div class="col-md-2 col_label">파트너</div>
+												<div class="col-md-2 col_label">제목</div>
+													<div class="col-md-10 col_contnt">조철수 상무님 입사</div>
+												</div>
+										</div>
+
+										<div class="row pad0 mar5">
+											<div class="col-md-12 pad0">
+												<div class="col-md-2 col_label">내용</div>
 												<div class="col-md-10 col_contnt">
-													<select class="js-example-basic-single">
-														<option value="진행중" selected>진행중</option>
-													</select>
+													안녕하세요. 경연 파트너스 임직원 여러분7월 12일부로 조철수 상무님이 입사하셨습니다. 여러분의 환영과 환대 바랍니다 
 
-													<select class="js-example-basic-single">
-														<option value="추천가능" selected>추천가능</option>
-												    </select>
 												</div>
 											</div>
 										</div>
-
-										<div class="row pad0 mar5">
+											<div class="row pad0 mar5">
 											<div class="col-md-12 pad0">
-												<div class="col-md-2 col_label">변경사항</div>
+												<div class="col-md-2 col_label">첨부파일</div>
 												<div class="col-md-10 col_contnt">
-													18-07-07 14:15:30 진행상태 변경 진행중>추천가능 진행중> 추천마감 <br />
-													18-07-19 15:14:16 채용정보 상세> 참고자료 :수정
+													없음 
 												</div>
 											</div>
 										</div>
