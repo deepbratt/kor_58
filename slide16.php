@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <meta name="keyword" content="">
 
-    <title>Slide 16</title>
+    <title>채용공고 신규등록 화면 2</title>
 	<?php include("metalinks.php");?>
     <!--  summernote -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />

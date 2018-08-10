@@ -43,47 +43,41 @@
 				<div class="col-md-12">
 					<section class="panel">
                           <header class="panel-heading">
-                            컽설턴트  > 인재 검색수 관리
+                            인재>인재 목록
                           </header>
-                      </section>
-				</div>
-			 </div>
-
-			  <!-- page start-->
-              <div class="row">
-                  <div class="col-lg-12">
-                      <section class="panel">
-                          <header class="panel-heading">
-                               인재 검색수 관리
-                          </header>
-						        <div class="panel-body">
-								
-								
-								<div class="col-md-5">
-								<div class="col-md-12">
-								  <div class="form-group">
-									  <label for="inputPassword1" class="col-md-2 col-sm-2 control-label">컨설턴트명</label>
-									  <div class="col-md-10">
-										  <input type="text" class="form-control" id="inputPassword1" placeholder="전체">
-									  </div>
-								  </div>
-								 </div>
-                              </div>
-							
-                          </div>
-                     
-                      </section>
-                  </div>
-
-			
-              </div>
+                          <div class="panel-body">
+						    <h3 class="form-group">
+								 인재 목록
+							</h3>
+							<form class="form-horizontal tasi-form" method="POST">
+							  <div class="col-sm-12">
+							  <div class="form-group bottom_border text-center">
+								  <button class="btn btn-info btn-lg" type="submit">검색조건</button>
+							  </div>
+							</div>
+						</form>
+					 </div>
+				  </section>
+               </div>
+            </div>
 			
 
 			<div class="row">
 				  <div class="col-lg-12">
                       <section class="panel">
-                          <header class="panel-heading">
-                              검색결과:4건
+                          <header>
+                              <div class="col-lg-12">
+								<div class="row panel-heading">
+									<div class="col-lg-4 ">
+										<span>검색결과:10,789건</span>
+									</div>
+									<div class="col-lg-8">
+										<span class="pull-right">
+											 <button class="btn btn-info" data-toggle="modal" href="#candid_register">비활성화</button>
+										</span>
+									</div>
+								</div>
+							</div>
                           </header>
                           <div class="panel-body">
                               <section id="no-more-tables">
@@ -97,13 +91,11 @@
 												  </label>
 											  </div>
 										</th>
-                                          <th>컨설턴트명</th>
-                                          <th>한달 기본 건수</th>
-                                          <th class="numeric">전년도 보너스 건수</th>
-                                          <th class="numeric">추가 건수</th>
-										  <th class="numeric">총 가능 건수</th>
-										  
-                                       
+                                          <th>수정등록일일</th>
+                                          <th>성명/성별/출생년도</th>
+                                          <th class="numeric">프로필 요약</th>
+                                          <th class="numeric">등록자</th>
+										  <th class="numeric">등록자메모</th>
                                       </tr>
                                       </thead>
                                       <tbody>
@@ -111,15 +103,15 @@
                                           <td data-title="Code">
 										  <div class="checkbox">
 											  <label>
-												  <input type="checkbox">
+												  <input type="checkbox" checked>
 											  </label>
 										  </div>
 										  </td>
-                                          <td data-title="Company">강용오</td>
-                                          <td data-title="Price">30</td>
-                                          <td data-title="Change">0</td>
-										  <td data-title="Change">5</td>
-										  <td data-title="Change">35</td>
+                                          <td data-title="Company">18-07-12<br/>18-07-19</td>
+                                          <td data-title="Price">김태령/여/1977</td>
+                                          <td data-title="Change">성균관대학교 정치외교학과 학사<br/>황금에스티/차장<br/>영어- 비지니스업무가능/중국어-비즈니스업무가능<br/>웹기획, 웹마케팅, B2B</td>
+										  <td data-title="Change">강용오</td>
+										  <td data-title="Change"></td>
                                       </tr>
 
 									   <tr>
@@ -129,44 +121,129 @@
 												  <input type="checkbox">
 											  </label>
 										  </div></td>
-                                          <td data-title="Company">김미영</td>
-                                          <td data-title="Price">30</td>
-                                          <td data-title="Change">0</td>
-										  <td data-title="Change">6</td>
-										  <td data-title="Change">36</td>
+                                          <td data-title="Company">18-07-11<br/>18-07-20</td>
+                                          <td data-title="Price">홍길동/남/1969</td>
+                                          <td data-title="Change">서율대학교 컴퓨터공학과 박사<br/>SK Telecome/이사<br/>영어- 비지니스업무가능<br/>빅데이터, 인공지능</td>
+										  <td data-title="Change">강용오</td>
+										  <td data-title="Change"></td>
 										  
                                       </tr>
 									   <tr>
-                                          <td data-title="Code">
-										  <div class="checkbox">
-											  <label>
-												  <input type="checkbox">
-											  </label>
-										  </div>
-										</td>
-                                          <td data-title="Company">김영민</td>
-                                          <td data-title="Price">30</td>
-                                          <td data-title="Change">0</td>
-										  <td data-title="Change">6</td>
-										  <td data-title="Change">36</td>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
 										  
                                       </tr>
 									   <tr>
-                                          <td data-title="Code">
-										  	<div class="checkbox">
-											  <label>
-												  <input type="checkbox">
-											  </label>
-										  </div>
-										  </td>
-                                          <td data-title="Company">조철수</td>
-                                          <td data-title="Price">30</td>
-                                          <td data-title="Change">0</td>
-										  <td data-title="Change">7</td>
-										  <td data-title="Change">47</td>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
 										  
                                       </tr>
-                                
+									   <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  
+                                      </tr>
+									   <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  
+                                      </tr>
+									   <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+                                      </tr>
+
+									  <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  
+                                      </tr>
+									   <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  
+                                      </tr> <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  
+                                      </tr>
+									   <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  
+                                      </tr>
+									   <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  
+                                      </tr>
+									   <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  
+                                      </tr>
+									   <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  
+                                      </tr>
+									   <tr>
+                                          <td data-title="Code"></td>
+                                          <td data-title="Company"></td>
+                                          <td data-title="Price"></td>
+                                          <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  <td data-title="Change"></td>
+										  
+                                      </tr>
                                       </tbody>
                                   </table>
                               </section>

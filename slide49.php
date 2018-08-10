@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <meta name="keyword" content="">
 
-    <title>채용공고에 대한 후보자 추천 현황 목록</title>
+    <title>Slide 49</title>
 	<?php include("metalinks.php");?>
     <!--bootstrap switcher-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />
@@ -40,21 +40,21 @@
 				<div class="col-md-12">
 					<section class="panel">
                           <header class="panel-heading">
-                             채용공고 > 추천현황
+                             채용공고>채용공고 목록
                           </header>
                           <div class="panel-body">
 						    <h3 class="form-group">
-								  추천현황
+								  채용공고 목록
 							</h3>
 							<form class="form-horizontal tasi-form" method="POST">
 							  <div class="col-sm-12">
 							   <div class="row">
 								   <div class="col-sm-4">
 									  <div class="form-group bottom_border">
-										  <label class="col-sm-3 control-label">담당자명</label>
+										  <label class="col-sm-3 control-label">고객사명</label>
 										  <div class="col-sm-6 control-label">
 											  <div class="input-group m-bot15">
-												  <input type="text" class="form-control">
+												  <input type="text" class="form-control" value="고객사명">
 												  <span class="input-group-btn">
 													<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
 												  </span>
@@ -62,66 +62,85 @@
 										  </div>
 									  </div>
 									</div>
-
+									<div class="col-sm-4">
+									  <div class="form-group bottom_border">
+										  <label class="col-sm-2 control-label">담당자명</label>
+										  <div class="col-sm-8 control-label">
+											  <div class="input-group m-bot15">
+												  <input type="text" class="form-control" value="담당자명">
+												  <span class="input-group-btn">
+													<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
+												  </span>
+											  </div>
+										  </div>
+									  </div>
+									</div>
 									<div class="col-sm-4">
 									  <div class="form-group bottom_border">
 										  <label class="col-sm-3 control-label">진행상태</label>
+										  <div class="col-sm-3 control-label">
+											  <select class="form-control m-bot15">
+													<option value="진행중" selected>진행중</option>
+											  </select>
+										  </div>
 										  <div class="col-sm-6 control-label">
-											  <div class="input-group m-bot15">
-												  <input type="text" class="form-control">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
+											  <select class="form-control m-bot15">
+													<option value="추천가능" selected>추천가능</option>
+											  </select>
+										  </div>
+									  </div>
+									</div>
+								</div>
+
+								<div class="row">
+								   <div class="col-sm-8">
+									  <div class="form-group bottom_border">
+										  <label class="col-sm-2 control-label">기간</label>
+										  <div class="col-sm-3 control-label" style="margin-left: -38px;">
+											  <select class="form-control m-bot15">
+													<option value="등록일" selected>등록일</option>
+											  </select>
+										  </div>
+										  <div class="col-sm-3 control-label">
+											  <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012"  class="input-append date dpYears">
+												  <input type="text" readonly="" value="2018-07-01" size="16" class="form-control">
+												  <span class="input-group-btn add-on">
+													<button class="btn btn-danger" type="button"><i class="fa fa-calendar"></i></button>
+												  </span>
+											  </div>
+										  </div>
+										  <div class="col-sm-3 control-label">
+											  <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012"  class="input-append date dpYears">
+												  <input type="text" readonly="" value="2018-07-01" size="16" class="form-control">
+												  <span class="input-group-btn add-on">
+													<button class="btn btn-danger" type="button"><i class="fa fa-calendar"></i></button>
 												  </span>
 											  </div>
 										  </div>
 									  </div>
 									</div>
-
-
+									
 									<div class="col-sm-4">
-										<div class="col-sm-6 control-label">
-											  <div class="input-group m-bot15">
-												  <input type="text" class="form-control">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
-												  </span>
-											  </div>
-										</div>
-
-									    <div class="col-sm-6 control-label">
-										  <div class="input-group m-bot15">
-											  <input type="text" class="form-control">
-											  <span class="input-group-btn">
-												<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
-											  </span>
+									  <div class="form-group bottom_border">
+										  <label class="col-sm-3 control-label">활성화</label>
+										  <div class="col-sm-9 control-label">
+											  <select class="form-control m-bot15">
+													<option value="활성화" selected>활성화</option>
+											  </select>
 										  </div>
-									    </div>
+									  </div>
 									</div>
 								</div>
 
 								<div class="row">
 								   <div class="col-sm-4">
 									  <div class="form-group bottom_border">
-										  <label class="col-sm-3 control-label">고객사명</label>
+										  <label class="col-sm-3 control-label">통합검색</label>
 										  <div class="col-sm-6 control-label">
-											  <div class="input-group m-bot15">
-												  <input type="text" class="form-control">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-white"><i class="fa fa-search"></i></button>
-												  </span>
-											  </div>
+											  <input class="form-control" type="text" value="통합검색">
 										  </div>
-									  </div>
-									</div>
-									<div class="col-sm-3"></div>
-									<div class="col-sm-5">
-									  <div class="form-group bottom_border">
-										  <label class="col-sm-2 control-label">통합검색</label>
-										  <div class="col-sm-7 control-label">
-											  <input class="form-control" type="text" placeholder="키워드">
-										  </div>
-										  <div class="col-sm-3 control-label">
-											  <button class="btn btn-info" type="submit">검색</button>
+										  <div class="col-sm-1 control-label" style="padding-left:0px;margin-left:0px;">
+											  <button class="btn btn-info">검색</button>
 										  </div>
 									  </div>
 									</div>
@@ -129,34 +148,12 @@
 							</div>
 						  </form>
 						</div>
-					 </section>
-					</div>
-				 </div>
-
-			  <!-- page start-->
-              <div class="row">
-                  <div class="col-lg-12">
-                      <section class="panel">
-                          <header class="">
+					
+                          <header class="" style="padding-top:30px;">
 							<div class="col-lg-12">
-								<div class="row panel-heading">
+								<div class="row panel-heading bottom_border">
 									<div class="col-lg-4 ">
 										<span>검색결과:2,789건</span>
-									</div>
-									<div class="col-lg-8">
-										<span class="pull-right">
-											 <label class="col-sm-4 control-label">정렬항목</label>
-											  <div class="col-sm-4 control-label">
-												  <select class="js-example-basic-single" style="width:100px;">
-														<option value="등록일" selected>등록일</option>
-												  </select>
-											  </div>
-											  <div class="col-sm-4 control-label">
-												  <select class="js-example-basic-single" style="width:100px;">
-														<option value="내림차순" selected>내림차순</option>
-												  </select>
-											  </div>
-										</span>
 									</div>
 								</div>
 							</div>
@@ -171,11 +168,11 @@
                                           <th>채용공고명 </th>
                                           <th>담당자</th>
 										  <th>진행상태</th>
-
 										  <th>추천수</th>
                                           <th>등록일 </th>
-                                          <th>접수마감일</th>
-										  <th>파트너</th>
+                                          <th>접수 마감일</th>
+										  <th>Co-Work여부</th>
+										  <th>활성화</th>
                                       </tr>
                                       </thead>
                                       <tbody>
@@ -186,9 +183,10 @@
                                           <td>강용오</td>
 										  <td>진행중</td>
 										  <td>5</td>
-                                          <td>2018-07-16</td>
+                                          <td>2018-07-01</td>
                                           <td>2018-07-31</td>
 										  <td>공개</td>
+										  <td><button class="btn btn-info">비활성화</button></td>
                                       </tr>
                                       <tr>
                                           <td>2</td>
@@ -200,6 +198,7 @@
                                           <td></td>
                                           <td></td>
 										  <td></td>
+										  <td><button class="btn btn-info">비활성화</button></td>
                                       </tr>
 									  <tr>
                                           <td>3</td>
@@ -211,6 +210,7 @@
                                           <td></td>
                                           <td></td>
 										  <td></td>
+										  <td><button class="btn btn-info">비활성화</button></td>
                                       </tr>
 									  <tr>
                                           <td>4</td>
@@ -222,6 +222,7 @@
                                           <td></td>
                                           <td></td>
 										  <td></td>
+										  <td><button class="btn btn-info">비활성화</button></td>
                                       </tr>
 
 
@@ -235,6 +236,7 @@
                                           <td></td>
                                           <td></td>
 										  <td></td>
+										  <td><button class="btn btn-info">비활성화</button></td>
                                       </tr>
 									  <tr>
                                           <td>6</td>
@@ -246,6 +248,7 @@
                                           <td></td>
                                           <td></td>
 										  <td></td>
+										  <td><button class="btn btn-info">비활성화</button></td>
                                       </tr>
 									  <tr>
                                           <td>7</td>
@@ -257,6 +260,7 @@
                                           <td></td>
                                           <td></td>
 										  <td></td>
+										  <td><button class="btn btn-info">비활성화</button></td>
                                       </tr>
 									  <tr>
                                           <td>8</td>
@@ -268,6 +272,7 @@
                                           <td></td>
                                           <td></td>
 										  <td></td>
+										  <td><button class="btn btn-info">비활성화</button></td>
                                       </tr>
 									  <tr>
                                           <td>9</td>
@@ -279,6 +284,7 @@
                                           <td></td>
                                           <td></td>
 										  <td></td>
+										  <td><button class="btn btn-info">비활성화</button></td>
                                       </tr>
 									  <tr>
                                           <td>10</td>
@@ -290,6 +296,7 @@
                                           <td></td>
                                           <td></td>
 										  <td></td>
+										  <td><button class="btn btn-info">비활성화</button></td>
                                       </tr>
                                       </tbody>
                                   </table>

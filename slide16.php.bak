@@ -7,7 +7,8 @@
     <meta name="author" content="">
     <meta name="keyword" content="">
 
-    <title>Slide 16</title>
+    <title>채용공고 신규등록 화면 2
+</title>
 	<?php include("metalinks.php");?>
     <!--  summernote -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css" />
@@ -145,13 +146,12 @@
                                     </div>
                                   </div>
 									
-								  <div class="form-group bottom_border">
+						
 									<div class="col-sm-12 control-label center">
 										<button type="button" class="btn btn-info"> 등록 </button>
 										<button type="button" class="btn btn-default"> 채용공고목록 </button>
 									</div>
-								  </div>
-
+								  
 								</div>
 							</div>
 						</div>
