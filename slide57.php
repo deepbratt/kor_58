@@ -92,10 +92,13 @@
 			<div class="row">
 				  <div class="col-lg-12">
                       <section class="panel">
+					  	<div class="pull-right" style="padding:10px !important;">
+							<a class="btn btn-info" data-toggle="modal" href="#something" >컨택내용등록</a>
+						</div>
                           <header class="panel-heading">
                               검색결과:10건
                           </header>
-						  <span class="label label-info label-mini" data-toggle="modal" href="#something" >비활성화</span>
+						 
                           <div class="panel-body">
 						  	
                               <section id="no-more-tables">
@@ -104,28 +107,60 @@
                                       <tr>
                                           <th>송수신구분</th>
                                           <th>쪽지구분</th>
-                                          <th class="numeric">성별</th>
-                                          <th class="numeric">직급</th>
-										  <th class="numeric">생년월일</th>
+                                          <th class="numeric">내용</th>
+                                          <th class="numeric">수신인</th>
+										  <th class="numeric">일자</th>
 								
                                        
                                       </tr>
                                       </thead>
                                       <tbody>
                                       <tr>
-                                          <td data-title="Code">853</td>
-                                          <td data-title="Company">홍길동</td>
-                                          <td data-title="Price"></td>
-                                          <td data-title="Change">부장</td>
+                                          <td data-title="Code">송신</td>
+                                          <td data-title="Company">고객사 담당자 변경</td>
+                                          <td data-title="Price">SK텔레콤의 담당자가 ‘김미영’에서 ‘강용오’로 변경됩니다.</td>
+                                          <td data-title="Change">김미영, 강용오</td>
 										  <td data-title="Change"></td>
                                       </tr>
 
 									   <tr>
-                                          <td data-title="Code">852</td>
-                                          <td data-title="Company">강용오</td>
-                                          <td data-title="Price">남자</td>
-                                          <td data-title="Change">상무</td>
-										  <td data-title="Change">19650830</td>
+                                          <td data-title="Code">송신</td>
+                                          <td data-title="Company">고객사 담당자 이관요청-승인</td>
+                                          <td data-title="Price">삼성전자의 담당자가 ‘강용오’에서 ‘김영민’으로 이관됩니다. </td>
+                                          <td data-title="Change">강용오, 김영민</td>
+										  <td data-title="Change"></td>
+                                      </tr>
+
+									     <tr>
+                                          <td data-title="Code">수신</td>
+                                          <td data-title="Company">고객사 담당자 이관요청</td>
+                                          <td data-title="Price">삼성전자의 담당자를 ‘강용오’에서 ‘김영민’으로 이관 요청합니다.</td>
+                                          <td data-title="Change">관리자</td>
+										  <td data-title="Change"></td>
+                                      </tr>
+
+									   <tr>
+                                          <td data-title="Code">송신</td>
+                                          <td data-title="Company">고객산 담당자 이관요청-반려</td>
+                                          <td data-title="Price">엘지화학의 담당자를 ‘강용오’에서 ‘조철수’로 이관요청을 반려합니다.</td>
+                                          <td data-title="Change">강용오, 조철수</td>
+										  <td data-title="Change"></td>
+                                      </tr>
+
+									     <tr>
+                                          <td data-title="Code">수신</td>
+                                          <td data-title="Company">고객산 담당자 이관요청</td>
+                                          <td data-title="Price">엘지화학의 담당자를 ‘강용오’에서 ‘조철수’로 이관요청 합니다.</td>
+                                          <td data-title="Change">관리자</td>
+										  <td data-title="Change"></td>
+                                      </tr>
+
+									     <tr>
+                                          <td data-title="Code">송신</td>
+                                          <td data-title="Company">인재 삭제요청-확인</td>
+                                          <td data-title="Price">인재 ‘김태령’의 DB가 삭제됩니다.</td>
+                                          <td data-title="Change">강용오</td>
+										  <td data-title="Change"></td>
                                       </tr>
                                 
                                       </tbody>
@@ -171,10 +206,23 @@
 			  <div class="modal-content">
 				  <div class="modal-header">
 					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					  <h4 class="modal-title">컨택내용등록</h4>
+					  <h4 class="modal-title">쪽지보내기</h4>
 				  </div>
-				  <div class="modal-body">강용오 (andrew.kang) 계정을 활성화하시겠습니까? 계정을 활성화하는 경우 사용자의 시스템 접근이 가능합니다 </div>
-				  <div class="modal-footer">
+				  <div class="modal-body">
+					<div class="col-md-6">
+						<div class="form-group">
+							<select class="form-control" tabindex="-1" aria-hidden="true">
+								<option value="AL">활성화</option>
+							</select>
+						</div>
+					</div>
+						 	<div class="col-md-6">
+							  <div class="form-group">								 
+								<input type="text" class="form-control" id="inputPassword1" placeholder="">  
+							 </div>
+						  </div>
+				</div>
+				  <div class="modal-footer" style="margin-top:40px;">
 					  <button data-dismiss="modal" class="btn btn-default" type="button">확인</button>
 					  <button class="btn btn-warning" type="button">취소</button>
 				  </div>
