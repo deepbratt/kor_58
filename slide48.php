@@ -93,7 +93,7 @@
 										<th> 
 											<div class="checkbox">
 												  <label>
-													  <input type="checkbox"> 
+													  <input type="checkbox" id="chkCodeudor" data-toggle="modal" data-target="#enroll"> 
 												  </label>
 											  </div>
 										</th>
@@ -111,7 +111,7 @@
                                           <td data-title="Code">
 										  <div class="checkbox">
 											  <label>
-												  <input type="checkbox">
+												  <input type="checkbox" id="chkCodeudor" data-toggle="modal" data-target="#enroll">
 											  </label>
 										  </div>
 										  </td>
@@ -126,7 +126,7 @@
                                           <td data-title="Code">
 										  <div class="checkbox">
 											  <label>
-												  <input type="checkbox">
+												  <input type="checkbox" id="chkCodeudor" data-toggle="modal" data-target="#enroll">
 											  </label>
 										  </div></td>
                                           <td data-title="Company">김미영</td>
@@ -140,7 +140,7 @@
                                           <td data-title="Code">
 										  <div class="checkbox">
 											  <label>
-												  <input type="checkbox">
+												  <input type="checkbox" id="chkCodeudor" data-toggle="modal" data-target="#enroll">
 											  </label>
 										  </div>
 										</td>
@@ -155,7 +155,7 @@
                                           <td data-title="Code">
 										  	<div class="checkbox">
 											  <label>
-												  <input type="checkbox">
+												  <input type="checkbox" id="chkCodeudor" data-toggle="modal" data-target="#enroll">
 											  </label>
 										  </div>
 										  </td>
@@ -267,14 +267,14 @@
       });
   </script>
   <script>
-  $('input[type="checkbox"]').on('change', function(e){
-	  
-   if(e.target.checked){
-	   alert('yoo');
-	  exit;
-     $('#enroll').modal('show')
-   }
-});
-  </script>
+        $('#chkCodeudor').click(function()
+        {
+            if ($(this).is(":checked")) {
+                $('#enroll').modal('show');
+            }else {
+                $('#enroll').modal('hide');
+            }
+        });
+    </script>
   </body>
 </html>
