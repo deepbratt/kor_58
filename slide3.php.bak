@@ -9,7 +9,7 @@
     <meta name="keyword" content="">
     <link rel="shortcut icon" href="">
 
-    <title> 비밀번호 인증코드코드 발송 이메일 템플릿 </title>
+    <title> 비밀번호 인증코드 요청 및 변경화면 </title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

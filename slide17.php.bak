@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <meta name="keyword" content="">
 
-    <title>채용공고의 상세보기 화면 1</title>
+    <title>Slide 17</title>
 	<?php include("metalinks.php");?>
     <!--bootstrap switcher-->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
