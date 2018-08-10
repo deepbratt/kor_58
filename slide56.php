@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <meta name="keyword" content="">
 
-    <title>Slide 20</title>
+    <title>Slide 56</title>
 	<?php include("metalinks.php");?>
     <!--bootstrap switcher-->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -59,18 +59,12 @@
                         
 						 <div class="modal-header">
 							  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-							  <h4 class="modal-title"> 추천진행상테 </h4>
+							  <h4 class="modal-title"> 공지상세 </h4>
 						 </div>
 					
                           <div class="panel-body">
                               <div class="adv-table">
-                                  <table  class="display table table-bordered table-striped">
-                                      <thead>
-                                      <tr>
-                                          <th colspan="3">1. 후보자 정보 </th>
-                                      </tr>
-                                      </thead>
-                                  </table>
+                             
 								  <div class="col-md-12">
 										
 										<div class="row pad0 mar5">

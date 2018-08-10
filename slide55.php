@@ -67,7 +67,7 @@
 									  </div>
 									 </div>
 								  </div>
-								   <div class="col-md-1"style="padding:0 !important;">
+								   <div class="col-md-1">
 									<a class="btn btn-info" data-toggle="modal" href="#enroll" >검색</a>
 								 </div>
 								<div class="col-md-6">
