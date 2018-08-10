@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <meta name="keyword" content="">
 
-    <title>Slide 20</title>
+    <title>Slide 56</title>
 	<?php include("metalinks.php");?>
     <!--bootstrap switcher-->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -59,18 +59,12 @@
                         
 						 <div class="modal-header">
 							  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-							  <h4 class="modal-title"> 추천진행상테 </h4>
+							  <h4 class="modal-title"> 공지상세 </h4>
 						 </div>
 					
                           <div class="panel-body">
                               <div class="adv-table">
-                                  <table  class="display table table-bordered table-striped">
-                                      <thead>
-                                      <tr>
-                                          <th colspan="3">1. 후보자 정보 </th>
-                                      </tr>
-                                      </thead>
-                                  </table>
+                             
 								  <div class="col-md-12">
 										
 										<div class="row pad0 mar5">
@@ -85,39 +79,9 @@
 										</div>
 										
 										<div class="row pad0 mar5">
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">성별</div>
-												<div class="col-md-8 col_contnt">여자</div>
-											</div>
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">이메일</div>
-												<div class="col-md-8 col_contnt"><a href="mailto:yeowu@naver.co">yeowu@naver.co</a></div>
-											</div>
-										</div>
-
-										<div class="row pad0 mar5">
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">추천자</div>
-												<div class="col-md-8 col_contnt">김영민</div>
-											</div>
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">추천일</div>
-												<div class="col-md-8 col_contnt"></div>
-											</div>
-										</div>
-
-										<div class="row pad0 mar5">
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">추천진행상태</div>
-												<div class="col-md-8 col_contnt" style="padding:0px;margin:0px;">
-													<select class="js-example-basic-single" style="width:90%;height:35px;margin:2px;text-align:center;">
-														<option value="추천가능" selected>추천가능</option>
-												    </select>
-												</div>
-											</div>
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">예정일</div>
-												<div class="col-md-8 col_contnt"><a href="mailto:yeowu@naver.co">yeowu@naver.co</a></div>
+											<div class="col-md-12 pad0">
+												<div class="col-md-2 col_label">채용제목</div>
+												<div class="col-md-10 col_contnt">Agile 전문가 채용</div>
 											</div>
 										</div>
 
