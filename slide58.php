@@ -23,6 +23,22 @@
 		.bottom_border{
 			border-bottom: none !important;
 		}
+
+	.pad0{
+			padding:0px;
+		}
+		.col_label{
+			border:1px solid #CCC;padding:10px;background:#CCC;
+		}
+		.col_label1{
+			border:1px solid #CCC;padding:10px;background:white;
+		}
+		.col_contnt{
+			border:1px solid #CCC;padding:10px;
+		}
+		.mar5{
+			margin-top:5px;
+		}
 	</style>
   </head>
 
@@ -58,77 +74,191 @@
 				</div>
 			 </div>
 			  <!-- page start-->
-              <div class="row">
-                  <div class="col-lg-12">
-                      <section class="panel">
+			  <div class="row" style="margin-top:20px;">
+			  <div class="col-md-10 col-md-offset-1">
+       					<section class="panel ">
+
+								<div class="col-md-6" style="background:white;border:1px solid #cccccc;padding:0 !important;">
+						 <div class="modal-header "  >
+							  
+							  <h4 class="modal-title"> 대분류 </h4>
+						 </div>
+						
                           <div class="panel-body">
                               <div class="adv-table">
-                                  <table  class="display table table-bordered table-striped" id="dynamic-table">
-                                      <thead>
-                                      <tr>
-                                          <th>no</th>
-                                          <th>이관요청일</th>
-                                          <th>고객사명</th>
-                                          <th>등록자</th>
-										  <th>기존담당자</th>
-										  <th>담당자새 </th>
-                                          <th>기업 담당자</th>
-                                          <th>이메일</th>
-										  <th>연락처</th>
-										  <th>Action</th>
-                                      </tr>
-                                      </thead>
-                                      <tbody>
-                                      <tr>
-                                          <td>3</td>
-                                          <td>18-07-13</td>
-                                          <td>삼성SDS</td>
-                                          <td>강용오</td>
-										  <td>강용오</td>
-										  <td>김미영</td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td><button class="btn btn-info" data-toggle="modal" href="#acknowledgement">승인</button>
-											  <button class="btn btn-info" data-toggle="modal" href="#companion">반려</button>
-										  </td>
-                                      </tr>
-                                      <tr>
-                                          <td>2</td>
-                                          <td>18-07-11</td>
-                                          <td>JALA</td>
-                                          <td>강용오</td>
-										  <td>강용오</td>
-										  <td>김영민</td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td>
-											  <button class="btn btn-info" data-toggle="modal" href="#acknowledgement">승인</button>
-											  <button class="btn btn-info" data-toggle="modal" href="#companion">반려</button>
-										  </td>
-                                      </tr>
-									  <tr>
-                                          <td>1</td>
-                                          <td>18-07-10</td>
-                                          <td>시스코시스템즈</td>
-                                          <td>김태령</td>
-										  <td>김미영</td>
-										  <td>조철수</td>
-                                          <td></td>
-                                          <td></td>
-										  <td></td>
-										  <td><button class="btn btn-info" data-toggle="modal" href="#acknowledgement">승인</button>
-											  <button class="btn btn-info" data-toggle="modal" href="#companion">반려</button>
-										  </td>
-                                      </tr>
-                                      </tbody>
-                                  </table>
+								   <div class="col-md-8 col-md-offset-2" style="border:1px solid #cccccc;">
+
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label">IT·웹·통신</div>
+											</div>
+										</div>
+
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label1">건설업</div>
+											</div>
+										</div>
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label1">교육업</div>
+											</div>
+										</div>
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label1">기관·협회</div>
+											</div>
+										</div>
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label1">미디어·디자인</div>
+											</div>
+										</div>
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label1">서비스업</div>
+											</div>
+										</div>
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label1">은행·금융업</div>
+											</div>
+										</div>
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label1">의료·제약·복지</div>
+											</div>
+										</div>
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label1">제조·화학</div>
+											</div>
+										</div>
+									
+									
+								  </div>
+								  <p>&nbsp;</p>
                               </div>
                           </div>
+						  </div>
+                        <div class="col-md-6" style="background:white;border:1px solid #cccccc;padding:0 !important;">
+						 <div class="modal-header "  >
+							  
+							  <h4 class="modal-title"> 중분류</h4>
+						 </div>
+						
+                          <div class="panel-body">
+                              <div class="adv-table">
+                              
+								  <div class="col-md-8 col-md-offset-2" style="border:1px solid #cccccc;">
+										
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label">웹에이젼시</div>
+												
+											</div>
+										</div>
+
+											<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label">네트워크·통신·모바일</div>
+												
+											</div>
+										</div>
+
+											<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label">솔루션·SI·ERP·CRM</div>
+												
+											</div>
+										</div>
+
+											<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label">포털·인터넷·컨텐츠</div>
+												
+											</div>
+										</div>
+
+										<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label">하드웨어·장비</div>
+												
+											</div>
+										</div>
+
+											<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label">IT컨설팅</div>
+												
+											</div>
+										</div>
+
+											<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label">쇼핑몰·오픈마켓</div>
+												
+											</div>
+										</div>
+											<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label">정보보안·백신</div>
+												
+											</div>
+										</div>
+											<div class="row pad0 " style="border:1px solid #676767;">
+											<div class=" pad0">
+												<div class="col-md-12 col_label">게임</div>
+												
+											</div>
+										</div>
+								  </div>
+								  <p>&nbsp;</p>
+                              </div>
+                          </div>
+						  </div>
+				
                       </section>
-                  </div>
-              </div>
+					 </div>
+					 </div>
+
+			<div class="row" style="margin-top:20px;">
+				<div class="col-md-10 col-md-offset-1">
+					<section class="panel">
+					  <div class="panel-body">
+
+						  <div class="col-sm-6">
+							<div class="form-group bottom_border">
+							  <div class="col-sm-6 control-label">
+								  <input type="text" class="form-control" placeholder="IT/정보통신업">
+							  </div>
+							  <div class="col-md-1">
+							  	<a class="btn btn-info" >수정</a>
+							  </div>
+							  <div class="col-md-1 " style="margin-left:10px;">
+							  	<a class="btn btn-info" >추가</a>
+							  </div>
+						  </div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group bottom_border">
+							  <div class="col-sm-6 control-label">
+								  <input type="text" class="form-control" placeholder="IT/정보통신업">
+							  </div>
+							  <div class="col-md-1">
+							  	<a class="btn btn-info" >수정</a>
+							  </div>
+							  <div class="col-md-1" style="margin-left:10px;">
+							  	<a class="btn btn-info" >추가</a>
+							  </div>
+						  </div>
+						</div>
+
+
+					</div>
+				 </section>
+				</div>
+			 </div>
               <!-- page end-->
 			  <!-- MODAL Start -->
 				<div class="modal fade modal-dialog-center " id="acknowledgement" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
