@@ -85,105 +85,42 @@
 										</div>
 										
 										<div class="row pad0 mar5">
-											<div class="col-md-12 pad0">
-												<div class="col-md-2 col_label">채용제목</div>
-												<div class="col-md-10 col_contnt">Agile 전문가 채용</div>
-											</div>
-										</div>
-
-										<div class="row pad0 mar5">
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">경력사항</div>
-												<div class="col-md-8 col_contnt">경력 5-10년</div>
-											</div>
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">연봉</div>
-												<div class="col-md-8 col_contnt">협의가능</div>
-											</div>
-										</div>
-
-										<div class="row pad0 mar5">
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">직책</div>
-												<div class="col-md-8 col_contnt">팀장</div>
-											</div>
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">직급</div>
-												<div class="col-md-8 col_contnt">부장</div>
-											</div>
-										</div>
-
-										<div class="row pad0 mar5">
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">고용형태</div>
-												<div class="col-md-8 col_contnt">정규직</div>
-											</div>
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">근무조직</div>
-												<div class="col-md-8 col_contnt">PMC 그룹</div>
-											</div>
-										</div>
-
-										<div class="row pad0 mar5">
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">직종</div>
-												<div class="col-md-8 col_contnt">개발, 기획</div>
-											</div>
-											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">근무지</div>
-												<div class="col-md-8 col_contnt">국내-서울-잠실</div>
-											</div>
-										</div>
-
-										<div class="row pad0 mar5">
 											<div class="col-md-6 pad0">
 												<div class="col-md-4 col_label">성별</div>
-												<div class="col-md-8 col_contnt">무관</div>
+												<div class="col-md-8 col_contnt">여자</div>
 											</div>
 											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">나이</div>
-												<div class="col-md-8 col_contnt">무관</div>
-											</div>
-										</div>
-										
-										<div class="row pad0 mar5">
-											<div class="col-md-12 pad0">
-												<div class="col-md-2 col_label">학력사항</div>
-												<div class="col-md-10 col_contnt">대학교(4년) 이상</div>
-											</div>
-										</div>
-
-										<div class="row pad0 mar5">
-											<div class="col-md-12 pad0">
-												<div class="col-md-2 col_label">외국어</div>
-												<div class="col-md-10 col_contnt">영어-비지니스업무가능, 스페인어-비지니스업무가능</div>
-											</div>
-										</div>
-
-										<div class="row pad0 mar5">
-											<div class="col-md-12 pad0">
-												<div class="col-md-2 col_label">접수기간</div>
-												<div class="col-md-10 col_contnt">18-07-01~18-08-31</div>
-											</div>
-										</div>
-
-										<div class="row pad0 mar5">
-											<div class="col-md-12 pad0">
-												<div class="col-md-2 col_label">담당자</div>
-												<div class="col-md-10 col_contnt">강용오</div>
+												<div class="col-md-4 col_label">이메일</div>
+												<div class="col-md-8 col_contnt"><a href="mailto:yeowu@naver.co">yeowu@naver.co</a></div>
 											</div>
 										</div>
 
 										<div class="row pad0 mar5">
 											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">등록일자</div>
-												<div class="col-md-8 col_contnt">2018-06-01</div>
+												<div class="col-md-4 col_label">추천자</div>
+												<div class="col-md-8 col_contnt">김영민</div>
 											</div>
 											<div class="col-md-6 pad0">
-												<div class="col-md-4 col_label">최종수정일</div>
-												<div class="col-md-8 col_contnt">2018-07-01</div>
+												<div class="col-md-4 col_label">추천일</div>
+												<div class="col-md-8 col_contnt"></div>
 											</div>
 										</div>
+
+										<div class="row pad0 mar5">
+											<div class="col-md-6 pad0">
+												<div class="col-md-4 col_label">추천진행상태</div>
+												<div class="col-md-8 col_contnt" style="padding:0px;margin:0px;">
+													<select class="js-example-basic-single" style="width:90%;height:35px;margin:2px;">
+														<option value="추천가능" selected>추천가능</option>
+												    </select>
+												</div>
+											</div>
+											<div class="col-md-6 pad0">
+												<div class="col-md-4 col_label">예정일</div>
+												<div class="col-md-8 col_contnt"><a href="mailto:yeowu@naver.co">yeowu@naver.co</a></div>
+											</div>
+										</div>
+
 
 										<div class="row pad0 mar5">
 											<div class="col-md-12 pad0">
