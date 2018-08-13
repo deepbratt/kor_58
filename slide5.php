@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <meta name="keyword" content="">
 
-    <title> 내 프로필 등록 페이지 1 </title>
+    <title> 내 프로필 등록 페이지 </title>
 	<?php include("metalinks.php");?>
     <link href="css/table-responsive.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap-fileupload.css" />
